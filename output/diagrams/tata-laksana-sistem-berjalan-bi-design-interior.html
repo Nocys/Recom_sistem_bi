@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tata Laksana Sistem Berjalan Pemilihan Produk Interior BI Design Interior</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: #fff; }
+    body { font-family: Arial, Helvetica, sans-serif; color: #111; }
+
+    .diagram {
+      position: relative;
+      width: 1800px;
+      height: 3550px;
+      margin: 0 auto;
+      background: #fff;
+      overflow: hidden;
+    }
+
+    .lane {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 450px;
+      border-right: 2px solid #b8b8b8;
+    }
+    .lane:last-of-type { border-right: 0; }
+    .lane-1 { left: 0; }
+    .lane-2 { left: 450px; }
+    .lane-3 { left: 900px; }
+    .lane-4 { left: 1350px; }
+
+    .lane-header {
+      height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #e9e9e9;
+      border-top: 2px solid #8d8d8d;
+      border-bottom: 2px solid #8d8d8d;
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: .2px;
+    }
+
+    .node {
+      position: absolute;
+      z-index: 3;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 330px;
+      min-height: 84px;
+      padding: 14px 18px;
+      background: #fff;
+      border: 3px solid #171717;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.27;
+    }
+    .node .small {
+      display: block;
+      margin-top: 7px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.32;
+    }
+    .process { border-radius: 4px; }
+    .terminal { border-radius: 999px; }
+    .issue {
+      background: #f6b7ba;
+      border-color: #a9474d;
+    }
+
+    .parallelogram {
+      transform: skewX(-9deg);
+      border-radius: 2px;
+    }
+    .parallelogram > * { transform: skewX(9deg); }
+
+    .decision {
+      position: absolute;
+      z-index: 3;
+      width: 184px;
+      height: 184px;
+      background: #fff;
+      border: 3px solid #171717;
+      transform: rotate(45deg);
+    }
+    .decision .decision-text {
+      position: absolute;
+      inset: 9px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      transform: rotate(-45deg);
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 1.22;
+    }
+
+    .connector-circle {
+      position: absolute;
+      z-index: 4;
+      width: 52px;
+      height: 52px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 3px solid #171717;
+      border-radius: 50%;
+      background: #fff;
+      font-size: 16px;
+      font-weight: 800;
+    }
+
+    .line { position: absolute; z-index: 1; background: #222; }
+    .v { width: 4px; }
+    .h { height: 4px; }
+    .head { position: absolute; z-index: 2; width: 0; height: 0; }
+    .down { border-left: 9px solid transparent; border-right: 9px solid transparent; border-top: 14px solid #222; }
+    .right { border-top: 9px solid transparent; border-bottom: 9px solid transparent; border-left: 14px solid #222; }
+    .left { border-top: 9px solid transparent; border-bottom: 9px solid transparent; border-right: 14px solid #222; }
+    .flow-label {
+      position: absolute;
+      z-index: 5;
+      padding: 2px 7px;
+      background: #fff;
+      font-size: 16px;
+      font-weight: 800;
+    }
+
+    .lane-note {
+      position: absolute;
+      z-index: 2;
+      left: 18px;
+      right: 18px;
+      height: 1px;
+      border-top: 1px dashed #d2d2d2;
+    }
+  </style>
+</head>
+<body>
+  <main class="diagram" aria-label="Flowchart swimlane tata laksana sistem berjalan BI Design Interior">
+    <section class="lane lane-1"><header class="lane-header">Konsumen</header></section>
+    <section class="lane lane-2"><header class="lane-header">Admin</header></section>
+    <section class="lane lane-3"><header class="lane-header">Owner/Desainer</header></section>
+    <section class="lane lane-4"><header class="lane-header">Tim Produksi</header></section>
+
+    <!-- Konsumen -->
+    <div class="node terminal" style="left:145px;top:110px;width:160px;height:62px;">Mulai</div>
+    <div class="node parallelogram" style="left:60px;top:230px;height:84px;"><span>Mencari referensi furnitur</span></div>
+    <div class="node parallelogram" style="left:60px;top:365px;height:84px;"><span>Melihat katalog / contoh produk</span></div>
+    <div class="node process issue" style="left:60px;top:500px;height:98px;">Membandingkan produk secara manual</div>
+    <div class="node process" style="left:60px;top:655px;height:84px;">Menghubungi admin</div>
+    <div class="node process" style="left:60px;top:790px;height:96px;">Menyampaikan kebutuhan ruangan dan produk</div>
+
+    <div class="connector-circle" style="left:113px;top:1235px;">A1</div>
+    <div class="connector-circle" style="left:199px;top:1235px;">A2</div>
+    <div class="connector-circle" style="left:285px;top:1235px;">A3</div>
+    <div class="node process" style="left:60px;top:1325px;height:96px;">Menerima rekomendasi / penawaran</div>
+    <div class="decision" style="left:133px;top:1490px;">
+      <div class="decision-text">Apakah produk / desain sesuai kebutuhan?</div>
+    </div>
+    <div class="node process" style="left:60px;top:1845px;height:84px;">Menyetujui pesanan</div>
+
+    <div class="connector-circle" style="left:199px;top:3155px;">B1</div>
+    <div class="node process" style="left:60px;top:3250px;height:92px;">Menerima produk</div>
+    <div class="node terminal" style="left:145px;top:3440px;width:160px;height:62px;">Selesai</div>
+
+    <!-- Admin -->
+    <div class="node process" style="left:510px;top:790px;height:96px;">Menerima pertanyaan dari konsumen</div>
+    <div class="node process" style="left:510px;top:940px;height:112px;">Menggali kebutuhan produk, ukuran, material, dan tema desain</div>
+    <div class="node process" style="left:510px;top:1105px;height:90px;">Mengecek katalog dan data produk</div>
+    <div class="node process issue" style="left:495px;top:1245px;width:360px;height:116px;">Informasi produk belum tersusun berdasarkan atribut rekomendasi</div>
+    <div class="node process issue" style="left:510px;top:1415px;height:98px;">Rekomendasi masih diberikan secara manual</div>
+    <div class="node process" style="left:510px;top:1565px;height:92px;">Memberikan rekomendasi / penawaran kepada konsumen</div>
+    <div class="connector-circle" style="left:842px;top:1585px;">A1</div>
+
+    <div class="node process" style="left:510px;top:1705px;height:92px;">Menerima revisi / konsultasi ulang</div>
+    <div class="node process" style="left:510px;top:1845px;height:102px;">Menyesuaikan kembali rekomendasi / penawaran</div>
+    <div class="connector-circle" style="left:842px;top:1870px;">A2</div>
+
+    <div class="decision" style="left:583px;top:1990px;">
+      <div class="decision-text">Apakah produk memerlukan desain custom?</div>
+    </div>
+
+    <div class="node process" style="left:510px;top:2410px;height:94px;">Menerima hasil desain dan estimasi harga</div>
+    <div class="node process" style="left:510px;top:2550px;height:96px;">Menyampaikan hasil desain kepada konsumen</div>
+    <div class="connector-circle" style="left:842px;top:2572px;">A3</div>
+
+    <div class="node process" style="left:510px;top:2750px;height:90px;">Menyusun detail pesanan</div>
+
+    <!-- Owner/Desainer -->
+    <div class="node process" style="left:960px;top:2018px;height:92px;">Menerima kebutuhan desain custom</div>
+    <div class="node process" style="left:960px;top:2160px;height:108px;">Menganalisis ukuran ruangan, konsep, dan material</div>
+    <div class="node process" style="left:960px;top:2320px;height:94px;">Membuat desain dan estimasi harga</div>
+    <div class="node process" style="left:960px;top:2465px;height:90px;">Mengirim hasil desain ke admin</div>
+
+    <!-- Tim Produksi -->
+    <div class="node process" style="left:1410px;top:2750px;height:90px;">Menerima detail pesanan</div>
+    <div class="node process" style="left:1410px;top:2895px;height:94px;">Menyiapkan bahan dan jadwal produksi</div>
+    <div class="node process" style="left:1410px;top:3040px;height:90px;">Proses pembuatan furnitur</div>
+    <div class="node process" style="left:1410px;top:3185px;height:90px;">Finishing dan quality control</div>
+    <div class="node process" style="left:1410px;top:3330px;height:90px;">Produk siap diserahkan</div>
+    <div class="connector-circle" style="left:1549px;top:3442px;">B1</div>
+
+    <!-- Alur vertikal Konsumen -->
+    <div class="line v" style="left:223px;top:172px;height:58px;"></div><div class="head down" style="left:216px;top:218px;"></div>
+    <div class="line v" style="left:223px;top:314px;height:51px;"></div><div class="head down" style="left:216px;top:353px;"></div>
+    <div class="line v" style="left:223px;top:449px;height:51px;"></div><div class="head down" style="left:216px;top:488px;"></div>
+    <div class="line v" style="left:223px;top:598px;height:57px;"></div><div class="head down" style="left:216px;top:643px;"></div>
+    <div class="line v" style="left:223px;top:739px;height:51px;"></div><div class="head down" style="left:216px;top:778px;"></div>
+
+    <!-- Konsumen ke Admin -->
+    <div class="line h" style="left:390px;top:836px;width:120px;"></div><div class="head right" style="left:498px;top:829px;"></div>
+
+    <!-- Admin alur pemeriksaan dan rekomendasi -->
+    <div class="line v" style="left:673px;top:886px;height:54px;"></div><div class="head down" style="left:666px;top:928px;"></div>
+    <div class="line v" style="left:673px;top:1052px;height:53px;"></div><div class="head down" style="left:666px;top:1093px;"></div>
+    <div class="line v" style="left:673px;top:1195px;height:50px;"></div><div class="head down" style="left:666px;top:1233px;"></div>
+    <div class="line v" style="left:673px;top:1361px;height:54px;"></div><div class="head down" style="left:666px;top:1403px;"></div>
+    <div class="line v" style="left:673px;top:1513px;height:52px;"></div><div class="head down" style="left:666px;top:1553px;"></div>
+    <div class="line h" style="left:840px;top:1611px;width:12px;"></div><div class="head right" style="left:839px;top:1604px;"></div>
+
+    <!-- Connector rekomendasi ke konsumen -->
+    <div class="line v" style="left:138px;top:1287px;height:38px;"></div>
+    <div class="line v" style="left:224px;top:1287px;height:38px;"></div>
+    <div class="line v" style="left:310px;top:1287px;height:38px;"></div>
+    <div class="line h" style="left:138px;top:1308px;width:172px;"></div>
+    <div class="line v" style="left:224px;top:1308px;height:17px;"></div><div class="head down" style="left:217px;top:1313px;"></div>
+
+    <div class="line v" style="left:223px;top:1421px;height:69px;"></div><div class="head down" style="left:216px;top:1478px;"></div>
+
+    <!-- Keputusan sesuai kebutuhan -->
+    <div class="line h" style="left:317px;top:1582px;width:193px;"></div><div class="head right" style="left:498px;top:1575px;"></div>
+    <div class="flow-label" style="left:397px;top:1550px;">Tidak</div>
+    <div class="line v" style="left:223px;top:1674px;height:171px;"></div><div class="head down" style="left:216px;top:1833px;"></div>
+    <div class="flow-label" style="left:235px;top:1724px;">Ya</div>
+
+    <!-- Admin revisi -->
+    <div class="line v" style="left:673px;top:1797px;height:48px;"></div><div class="head down" style="left:666px;top:1833px;"></div>
+    <div class="line h" style="left:840px;top:1896px;width:12px;"></div><div class="head right" style="left:839px;top:1889px;"></div>
+
+    <!-- Persetujuan ke keputusan custom -->
+    <div class="line h" style="left:390px;top:1887px;width:192px;"></div>
+    <div class="line v" style="left:580px;top:1887px;height:195px;"></div>
+    <div class="line h" style="left:580px;top:2080px;width:13px;"></div><div class="head right" style="left:581px;top:2073px;"></div>
+
+    <!-- Keputusan custom: Ya ke Owner -->
+    <div class="line h" style="left:767px;top:2082px;width:193px;"></div><div class="head right" style="left:948px;top:2075px;"></div>
+    <div class="flow-label" style="left:838px;top:2050px;">Ya</div>
+
+    <!-- Keputusan custom: Tidak ke detail pesanan -->
+    <div class="line v" style="left:673px;top:2174px;height:70px;"></div>
+    <div class="line h" style="left:474px;top:2242px;width:203px;"></div>
+    <div class="line v" style="left:474px;top:2242px;height:553px;"></div>
+    <div class="line h" style="left:474px;top:2793px;width:36px;"></div><div class="head right" style="left:498px;top:2786px;"></div>
+    <div class="flow-label" style="left:482px;top:2210px;">Tidak</div>
+
+    <!-- Owner proses desain -->
+    <div class="line v" style="left:1123px;top:2110px;height:50px;"></div><div class="head down" style="left:1116px;top:2148px;"></div>
+    <div class="line v" style="left:1123px;top:2268px;height:52px;"></div><div class="head down" style="left:1116px;top:2308px;"></div>
+    <div class="line v" style="left:1123px;top:2414px;height:51px;"></div><div class="head down" style="left:1116px;top:2453px;"></div>
+    <div class="line h" style="left:840px;top:2510px;width:120px;"></div><div class="head left" style="left:828px;top:2503px;"></div>
+
+    <!-- Admin hasil desain -->
+    <div class="line v" style="left:673px;top:2504px;height:46px;"></div><div class="head down" style="left:666px;top:2538px;"></div>
+    <div class="line h" style="left:840px;top:2598px;width:12px;"></div><div class="head right" style="left:839px;top:2591px;"></div>
+
+    <!-- Detail pesanan ke Produksi -->
+    <div class="line h" style="left:840px;top:2793px;width:570px;"></div><div class="head right" style="left:1398px;top:2786px;"></div>
+
+    <!-- Produksi -->
+    <div class="line v" style="left:1573px;top:2840px;height:55px;"></div><div class="head down" style="left:1566px;top:2883px;"></div>
+    <div class="line v" style="left:1573px;top:2989px;height:51px;"></div><div class="head down" style="left:1566px;top:3028px;"></div>
+    <div class="line v" style="left:1573px;top:3130px;height:55px;"></div><div class="head down" style="left:1566px;top:3173px;"></div>
+    <div class="line v" style="left:1573px;top:3275px;height:55px;"></div><div class="head down" style="left:1566px;top:3318px;"></div>
+    <div class="line v" style="left:1573px;top:3420px;height:22px;"></div><div class="head down" style="left:1566px;top:3430px;"></div>
+
+    <!-- Connector produk ke konsumen -->
+    <div class="line v" style="left:224px;top:3207px;height:43px;"></div><div class="head down" style="left:217px;top:3238px;"></div>
+    <div class="line v" style="left:223px;top:3342px;height:98px;"></div><div class="head down" style="left:216px;top:3428px;"></div>
+  </main>
+</body>
+</html>

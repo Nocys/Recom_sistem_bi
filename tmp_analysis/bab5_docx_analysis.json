@@ -1,0 +1,4714 @@
+{
+  "source": "D:\\Kuliah\\Semester 8\\Guide\\Skripsi_A_BAB_5.docx",
+  "paragraph_count_nonempty": 618,
+  "all_paragraph_count": 724,
+  "style_counts": [
+    [
+      "Normal",
+      535
+    ],
+    [
+      "Heading 1",
+      36
+    ],
+    [
+      "Heading 2",
+      27
+    ],
+    [
+      "Heading 3",
+      10
+    ],
+    [
+      "Heading 4",
+      9
+    ],
+    [
+      "Heading 5",
+      1
+    ]
+  ],
+  "heading_like": [
+    {
+      "idx": 1,
+      "style": "Normal",
+      "text": "BAB 5",
+      "align": "CENTER (1)",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 13.85,
+      "line_spacing": 1.0791666666666666
+    },
+    {
+      "idx": 3,
+      "style": "Heading 1",
+      "text": "5.1  \tTahapan Perancangan dan Desain Sistem",
+      "align": "LEFT (0)",
+      "left_indent_cm": -0.03,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 12.9,
+      "line_spacing": null
+    },
+    {
+      "idx": 4,
+      "style": "Heading 2",
+      "text": "5.1.1  Rancangan Kebutuhan Sistem",
+      "align": "LEFT (0)",
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 12.7,
+      "line_spacing": null
+    },
+    {
+      "idx": 20,
+      "style": "Heading 1",
+      "text": "Tabel 5.1 Kebutuhan Fungsional Sistem",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 0.0,
+      "line_spacing": null
+    },
+    {
+      "idx": 28,
+      "style": "Heading 1",
+      "text": "Tabel 5.2 Kebutuhan Non-Fungsional Sistem",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 0.0,
+      "line_spacing": null
+    },
+    {
+      "idx": 30,
+      "style": "Heading 2",
+      "text": "5.1.2  Rancangan Desain Sistem",
+      "align": "LEFT (0)",
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 12.7,
+      "line_spacing": null
+    },
+    {
+      "idx": 32,
+      "style": "Heading 3",
+      "text": "5.1.2.1 Desain Arsitektur Sistem",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 35,
+      "style": "Heading 1",
+      "text": "Gambar 5.1 Arsitektur Sistem Web Penyedia Chatbot",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 38,
+      "style": "Heading 1",
+      "text": "Gambar 5.2 Arsitektur Berjalan Sistem Web",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 42,
+      "style": "Heading 1",
+      "text": "Gambar 5.3 Arsitektur Web User",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 47,
+      "style": "Heading 1",
+      "text": "Gambar 5.5 Arsitektur Web Admin",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 52,
+      "style": "Heading 1",
+      "text": "Gambar 5.5 Struktur Direktori Sistem",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 57,
+      "style": "Heading 2",
+      "text": "5.1.2.2  User Flow Diagram atau Wireflow",
+      "align": "LEFT (0)",
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 12.7,
+      "line_spacing": null
+    },
+    {
+      "idx": 72,
+      "style": "Heading 2",
+      "text": "5.1.2.3 User Interface",
+      "align": "LEFT (0)",
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 12.7,
+      "line_spacing": null
+    },
+    {
+      "idx": 77,
+      "style": "Heading 1",
+      "text": "Gambar 5.8 Rancangan Landing Page",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 83,
+      "style": "Heading 1",
+      "text": "Gambar 5.9 Rancangan Sign-in User",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 86,
+      "style": "Heading 1",
+      "text": "Gambar 5.10 Rancangan Sign-Up User",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 121,
+      "style": "Heading 1",
+      "text": "Gambar 5.16 Rancangan Input Penggunaan API Key",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 124,
+      "style": "Heading 1",
+      "text": "Gambar 5.17 Rancangan Proses Percobaan Chat untuk API Key",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 137,
+      "style": "Heading 1",
+      "text": "Gambar 5.20 Rancangan Tampilan User Info",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 153,
+      "style": "Heading 1",
+      "text": "Gambar 5.23 Rancangan Tampilan Dashboard Superuser",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 172,
+      "style": "Heading 2",
+      "text": "5.1.2.5  Struktur Database",
+      "align": "LEFT (0)",
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 12.7,
+      "line_spacing": null
+    },
+    {
+      "idx": 175,
+      "style": "Heading 1",
+      "text": "Gambar 5.27 Hubungan Entitas Database",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 178,
+      "style": "Heading 2",
+      "text": "5.1.2.5.1 Relational Database Management System",
+      "align": "LEFT (0)",
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 12.7,
+      "line_spacing": null
+    },
+    {
+      "idx": 181,
+      "style": "Heading 1",
+      "text": "Gambar 5.28 Rancangan Database Relasional",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 183,
+      "style": "Heading 2",
+      "text": "5.1.2.5.2 Vektor Database",
+      "align": "LEFT (0)",
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 12.7,
+      "line_spacing": null
+    },
+    {
+      "idx": 186,
+      "style": "Heading 1",
+      "text": "Gambar 5.29 Rancangan Database Vektor",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 188,
+      "style": "Heading 2",
+      "text": "5.1.2.5  Unified Modeling Language (UML)",
+      "align": "LEFT (0)",
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 12.7,
+      "line_spacing": null
+    },
+    {
+      "idx": 191,
+      "style": "Heading 3",
+      "text": "5.1.2.5.1 Use Case Diagram",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 194,
+      "style": "Heading 1",
+      "text": "Gambar 5.30 Use Case Diagram",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 196,
+      "style": "Heading 2",
+      "text": "5.1.2.5.2 Activity Diagram",
+      "align": "LEFT (0)",
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 12.7,
+      "line_spacing": null
+    },
+    {
+      "idx": 199,
+      "style": "Heading 1",
+      "text": "Gambar 5.31 Activity Diagram Sign up dan Login",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 0.0,
+      "line_spacing": null
+    },
+    {
+      "idx": 214,
+      "style": "Normal",
+      "text": "5.33 sebagai berikut.",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.0791666666666666
+    },
+    {
+      "idx": 216,
+      "style": "Heading 1",
+      "text": "Gambar 5.33 Activity Diagram Try Data API",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 223,
+      "style": "Heading 1",
+      "text": "Gambar 5.35 Activity Diagram Feedback by User or Guest",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 227,
+      "style": "Heading 1",
+      "text": "Gambar 5.35 Activity Diagram Delete Account by Admin",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 231,
+      "style": "Heading 1",
+      "text": "Gambar 5.36 Activity Diagram Reset Password by Admin",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 234,
+      "style": "Heading 1",
+      "text": "Gambar 5.37 Activity Diagram Manage Message by Admin",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 239,
+      "style": "Heading 1",
+      "text": "Gambar 5.38 Activity Diagram Setting Data User/Admin",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 241,
+      "style": "Heading 2",
+      "text": "5.1.2.5.3 Sequence Diagram",
+      "align": "LEFT (0)",
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 12.7,
+      "line_spacing": null
+    },
+    {
+      "idx": 244,
+      "style": "Heading 1",
+      "text": "Gambar 5.39 Sequence Diagram Sign-Up dan Sign-In",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 249,
+      "style": "Heading 1",
+      "text": "Gambar 5.50 Sequence Diagram New, View, dan Delete Data API",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 255,
+      "style": "Heading 1",
+      "text": "Gambar 5.51 Sequence Diagram Chatbot Process",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 260,
+      "style": "Heading 1",
+      "text": "Gambar 5.52 Sequence Diagram Feedback by User or Guest",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 264,
+      "style": "Heading 1",
+      "text": "Gambar 5.53 Sequence Diagram Delete Account by Admin",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 269,
+      "style": "Heading 1",
+      "text": "Gambar 5.55 Sequence Diagram Reset Password by Admin",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 0.0,
+      "line_spacing": null
+    },
+    {
+      "idx": 274,
+      "style": "Heading 1",
+      "text": "Gambar 5.55 Sequence Diagram Manage Message by Admin",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 278,
+      "style": "Heading 1",
+      "text": "Gambar 5.56 Sequence Diagram Setting Data User/Admin",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 280,
+      "style": "Heading 2",
+      "text": "5.2 \tImplementasi",
+      "align": "LEFT (0)",
+      "left_indent_cm": -0.03,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 12.9,
+      "line_spacing": null
+    },
+    {
+      "idx": 282,
+      "style": "Heading 3",
+      "text": "5.2.1 Pengumpulan dan Pembersihan Data",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 294,
+      "style": "Heading 3",
+      "text": "5.2.2 Ilustrasi Model Perhitungan Transformer",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 297,
+      "style": "Heading 4",
+      "text": "5.2.2.1 Input Embedding dan Positional Embedding",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 307,
+      "style": "Normal",
+      "text": "0.5536\t0,3552\t−0,5932    0,8535\t0,5315\t, . . .0 𝑚𝑎𝑘𝑎𝑛",
+      "align": "LEFT (0)",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 0.2,
+      "line_spacing": 1.0833333333333333
+    },
+    {
+      "idx": 316,
+      "style": "Normal",
+      "text": "10000\t10000",
+      "align": "LEFT (0)",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 0.15,
+      "line_spacing": 1.0791666666666666
+    },
+    {
+      "idx": 335,
+      "style": "Heading 4",
+      "text": "5.2.2.2 Multi-Head Attention",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 338,
+      "style": "Heading 5",
+      "text": "𝑑𝑚𝑜𝑑𝑒𝑙",
+      "align": null,
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 353,
+      "style": "Normal",
+      "text": "0\t1\t0\t0\t1",
+      "align": "LEFT (0)",
+      "left_indent_cm": null,
+      "first_line_indent_cm": -0.66,
+      "space_before_pt": null,
+      "space_after_pt": 0.2,
+      "line_spacing": 1.0833333333333333
+    },
+    {
+      "idx": 355,
+      "style": "Normal",
+      "text": "1\t1\t0\t1\t2\t1",
+      "align": "LEFT (0)",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 0.2,
+      "line_spacing": 1.0833333333333333
+    },
+    {
+      "idx": 356,
+      "style": "Normal",
+      "text": "1\t1",
+      "align": "LEFT (0)",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 9.4,
+      "line_spacing": 1.0791666666666666
+    },
+    {
+      "idx": 357,
+      "style": "Normal",
+      "text": "1\t1",
+      "align": "LEFT (0)",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 0.0,
+      "line_spacing": 1.0791666666666666
+    },
+    {
+      "idx": 358,
+      "style": "Normal",
+      "text": "1\t0\t1\t0\t2\t1",
+      "align": "LEFT (0)",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 0.2,
+      "line_spacing": 1.0833333333333333
+    },
+    {
+      "idx": 360,
+      "style": "Normal",
+      "text": "1\t0\t11",
+      "align": "LEFT (0)",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": 21.45,
+      "space_after_pt": 0.2,
+      "line_spacing": 1.0833333333333333
+    },
+    {
+      "idx": 362,
+      "style": "Normal",
+      "text": "1\t1\t01",
+      "align": "LEFT (0)",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 23.9,
+      "line_spacing": 1.0833333333333333
+    },
+    {
+      "idx": 363,
+      "style": "Normal",
+      "text": "1\t0\t11",
+      "align": "LEFT (0)",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 0.2,
+      "line_spacing": 1.0833333333333333
+    },
+    {
+      "idx": 365,
+      "style": "Normal",
+      "text": "1\t1\t02",
+      "align": "LEFT (0)",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 3.45,
+      "line_spacing": 1.0833333333333333
+    },
+    {
+      "idx": 366,
+      "style": "Normal",
+      "text": "1\t0\t1\t01\t1",
+      "align": "LEFT (0)",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 0.2,
+      "line_spacing": 1.0833333333333333
+    },
+    {
+      "idx": 368,
+      "style": "Normal",
+      "text": "1\t1\t0\t1\t1\t2",
+      "align": "LEFT (0)",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 0.2,
+      "line_spacing": 1.0833333333333333
+    },
+    {
+      "idx": 369,
+      "style": "Normal",
+      "text": "0\t0",
+      "align": "LEFT (0)",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 10.15,
+      "line_spacing": 1.0791666666666666
+    },
+    {
+      "idx": 390,
+      "style": "Normal",
+      "text": "2 sehingga menghasilkan 𝑍𝑐𝑜𝑛𝑐𝑎𝑡 = [ 1,02\t1,658     1,2\t1,658]. 1,02\t1,658     0,78\t1,579",
+      "align": "LEFT (0)",
+      "left_indent_cm": 7.22,
+      "first_line_indent_cm": -6.49,
+      "space_before_pt": null,
+      "space_after_pt": 12.1,
+      "line_spacing": 1.0833333333333333
+    },
+    {
+      "idx": 395,
+      "style": "Heading 4",
+      "text": "5.2.2.3 Add & Norm",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 427,
+      "style": "Heading 4",
+      "text": "5.2.2.5 Feed Forward",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 434,
+      "style": "Normal",
+      "text": "0\t0\t1,876\t0",
+      "align": "LEFT (0)",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 0.2,
+      "line_spacing": 1.0833333333333333
+    },
+    {
+      "idx": 441,
+      "style": "Heading 4",
+      "text": "5.2.2.5 Masked Multi-Head Attention",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 446,
+      "style": "Normal",
+      "text": "0\t −∞\t −∞",
+      "align": "LEFT (0)",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 0.2,
+      "line_spacing": 1.0833333333333333
+    },
+    {
+      "idx": 456,
+      "style": "Heading 4",
+      "text": "5.2.2.6 Cross Attention",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 460,
+      "style": "Normal",
+      "text": "1\t0\t1\t0",
+      "align": "LEFT (0)",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 0.2,
+      "line_spacing": 1.0833333333333333
+    },
+    {
+      "idx": 461,
+      "style": "Normal",
+      "text": "1\t0\t1 \t−0,907\t1,557\t0,527",
+      "align": "LEFT (0)",
+      "left_indent_cm": null,
+      "first_line_indent_cm": -0.66,
+      "space_before_pt": null,
+      "space_after_pt": 6.6,
+      "line_spacing": 1.0833333333333333
+    },
+    {
+      "idx": 462,
+      "style": "Normal",
+      "text": "1\t0\t0   dan hasil keluaran decoder sebelumnya [−5,826\t1,582\t0,913].",
+      "align": "LEFT (0)",
+      "left_indent_cm": null,
+      "first_line_indent_cm": -0.66,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.0791666666666666
+    },
+    {
+      "idx": 463,
+      "style": "Normal",
+      "text": "0\t0\t1\t1 \t−1,725\t0,321\t1,532",
+      "align": "LEFT (0)",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 0.2,
+      "line_spacing": 1.0833333333333333
+    },
+    {
+      "idx": 468,
+      "style": "Normal",
+      "text": "1\t0\t1\t1",
+      "align": "LEFT (0)",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 0.0,
+      "line_spacing": 1.0791666666666666
+    },
+    {
+      "idx": 469,
+      "style": "Normal",
+      "text": "1\t0\t0\t1\t0\t1",
+      "align": "LEFT (0)",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 0.2,
+      "line_spacing": 1.0833333333333333
+    },
+    {
+      "idx": 471,
+      "style": "Normal",
+      "text": "1\t1\t1\t0",
+      "align": "LEFT (0)",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 0.0,
+      "line_spacing": 1.0791666666666666
+    },
+    {
+      "idx": 473,
+      "style": "Normal",
+      "text": "0\t0\t0\t1",
+      "align": "LEFT (0)",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 10.15,
+      "line_spacing": 1.0791666666666666
+    },
+    {
+      "idx": 480,
+      "style": "Heading 4",
+      "text": "5.2.2.7 Linear dan Softmax",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 502,
+      "style": "Heading 3",
+      "text": "5.2.3   Proses Ujaran Kebencian",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 506,
+      "style": "Heading 4",
+      "text": "5.2.3.1 Perhitungan Model Hybrid BERT KNN",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 525,
+      "style": "Heading 4",
+      "text": "5.2.3.2 Perhitungan Model Hybrid BERT Regresi Logistik",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 541,
+      "style": "Heading 3",
+      "text": "5.2.5  Proses Model RAG",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 554,
+      "style": "Heading 2",
+      "text": "5.3 \tImplementasi Koding",
+      "align": "LEFT (0)",
+      "left_indent_cm": -0.03,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 12.9,
+      "line_spacing": null
+    },
+    {
+      "idx": 556,
+      "style": "Heading 3",
+      "text": "5.3.1 Implementasi Filter Ujaran Kebencian",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 12.9,
+      "line_spacing": null
+    },
+    {
+      "idx": 597,
+      "style": "Heading 3",
+      "text": "5.3.2 Implementasi Alur Kerja RAG",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 12.9,
+      "line_spacing": null
+    },
+    {
+      "idx": 611,
+      "style": "Heading 3",
+      "text": "5.3.3 Pengujian Model",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 615,
+      "style": "Heading 1",
+      "text": "Gambar 5.51 Evaluation Report Model BERT + KNN (FAISS)",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 621,
+      "style": "Heading 1",
+      "text": "Tabel 5. 3 Tabel Perbandingan Algoritma Hybrid Ujaran Kebencian",
+      "align": "LEFT (0)",
+      "left_indent_cm": 1.47,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 0.0,
+      "line_spacing": null
+    },
+    {
+      "idx": 635,
+      "style": "Heading 2",
+      "text": "5.3.5  Development",
+      "align": "LEFT (0)",
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 12.7,
+      "line_spacing": null
+    },
+    {
+      "idx": 641,
+      "style": "Heading 2",
+      "text": "Gambar 5.53 Halaman Landing Page",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 645,
+      "style": "Heading 2",
+      "text": "Gambar 5.55 Tampilan Halaman Sign-Up",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 649,
+      "style": "Heading 2",
+      "text": "Gambar 5.55 Tampilan Halaman Sign-In",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 664,
+      "style": "Heading 2",
+      "text": "Gambar 5.59 Tampilan Halaman Tabel Data API",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 667,
+      "style": "Heading 2",
+      "text": "Gambar 5.60 Tampilan View Data API",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 672,
+      "style": "Heading 2",
+      "text": "Gambar 5.61 Halaman Form Data API",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 677,
+      "style": "Heading 2",
+      "text": "Gambar 5.62 Tampilan Halaman Try API",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 688,
+      "style": "Heading 2",
+      "text": "Gambar 5.65 Tampilan Halaman Contact Us",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 0.0,
+      "line_spacing": null
+    },
+    {
+      "idx": 692,
+      "style": "Heading 2",
+      "text": "Gambar 5.66 Tampilan Halaman Dashboard Superadmin",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 697,
+      "style": "Heading 2",
+      "text": "Gambar 5.67 Tampilan Halaman User Management Admin",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 701,
+      "style": "Heading 2",
+      "text": "Gambar 5.68 Tampilan Halaman User Manage Message Admin",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 706,
+      "style": "Heading 2",
+      "text": "Gambar 5.69 Tampilan Halaman User Setting",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "idx": 708,
+      "style": "Heading 3",
+      "text": "5.3.5  White Box Testing",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 12.9,
+      "line_spacing": null
+    },
+    {
+      "idx": 710,
+      "style": "Heading 2",
+      "text": "Tabel 5.6 Tabel White Box Testing",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 0.0,
+      "line_spacing": null
+    },
+    {
+      "idx": 720,
+      "style": "Heading 2",
+      "text": "Gambar 5.70 Testing Postman",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    }
+  ],
+  "sections": [
+    {
+      "idx": 0,
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 1.34,
+      "bottom_margin_cm": 1.24,
+      "left_margin_cm": 4.0,
+      "right_margin_cm": 2.98,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "idx": 1,
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 2.54,
+      "bottom_margin_cm": 2.54,
+      "left_margin_cm": 4.0,
+      "right_margin_cm": 2.54,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "idx": 2,
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 4.02,
+      "bottom_margin_cm": 3.72,
+      "left_margin_cm": 4.0,
+      "right_margin_cm": 2.99,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "idx": 3,
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 4.02,
+      "bottom_margin_cm": 3.0,
+      "left_margin_cm": 5.93,
+      "right_margin_cm": 10.58,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "idx": 4,
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 4.0,
+      "bottom_margin_cm": 3.0,
+      "left_margin_cm": 4.0,
+      "right_margin_cm": 2.96,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    }
+  ],
+  "tables": [
+    {
+      "idx": 0,
+      "rows": 10,
+      "cols": 2,
+      "sample_rows": [
+        [
+          "Nama  | Kebutuhan  | Fungsional",
+          "Deskripsi Kebutuhan"
+        ],
+        [
+          "Input dokumen PDF",
+          "Sistem dapat menerima input file .pdf dari pengguna."
+        ],
+        [
+          "Ekstraksi Teks",
+          "Sistem mengekstraksi teks naratif dari dokumen PDF dan memecahnya menjadi bagian-bagian kecil (chunking)."
+        ],
+        [
+          "Embedding",
+          "Sistem mengubah teks dokumen menjadi vektor dan kemudian hasil tersebut disimpan dalam vektor database"
+        ],
+        [
+          "Fitur Ujaran Kebencian",
+          "Sistem mendeteksi pertanyaan yang diberikan oleh user mengandung ujaran kebencian atau tidak menggunakan metode hybrid (BERT + Classifier)"
+        ]
+      ]
+    },
+    {
+      "idx": 1,
+      "rows": 4,
+      "cols": 2,
+      "sample_rows": [
+        [
+          "Nama  | Kebutuhan Non- | Fungsional",
+          "Deskripsi Kebutuhan"
+        ],
+        [
+          "Waktu Response (Performance)",
+          "Sistem merespons perpindahan halaman user interface dalam waktu singkat agar interaksi pengguna berjalan lancar."
+        ],
+        [
+          "Keamanan  | Akses (Security)",
+          "Akses dalam sistem dibatasi dengan username dan password yang harus diisi oleh user."
+        ],
+        [
+          "Penyimpanan  | Data (Usability)",
+          "Sistem menggunakan database terstruktur untuk menyimpan data pengguna dan menggunakan enkripsi untuk data."
+        ]
+      ]
+    },
+    {
+      "idx": 2,
+      "rows": 3,
+      "cols": 7,
+      "sample_rows": [
+        [
+          "",
+          "W_Q",
+          "W_Q",
+          "W_K",
+          "W_K",
+          "W_V",
+          "W_V"
+        ],
+        [
+          "Head 1",
+          "1 | 0 | [ | 1 | 0",
+          "0 | 1 | ]  | 1 | 0",
+          "0 | 1 | [ | 0 | 1",
+          "1 | 0 | ]  | 0 | 1",
+          "1 | 0 | [ | 1 | 0",
+          "1 | 0 | ]  | 0 | 1"
+        ],
+        [
+          "Head 2",
+          "0 | 1 | [ | 0 | 1",
+          "0 | 1 | ]  | 1 | 0",
+          "1 | 0 | [ | 1 | 0",
+          "1 | 1 | ]  | 0 | 0",
+          "0 | 1 | [ | 1 | 0",
+          "1 | 0 | ]  | 1 | 0"
+        ]
+      ]
+    },
+    {
+      "idx": 3,
+      "rows": 1,
+      "cols": 8,
+      "sample_rows": [
+        [
+          "1 | Head 2:",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "1",
+          "2"
+        ]
+      ]
+    },
+    {
+      "idx": 4,
+      "rows": 1,
+      "cols": 2,
+      "sample_rows": [
+        [
+          "0",
+          "1"
+        ]
+      ]
+    },
+    {
+      "idx": 5,
+      "rows": 1,
+      "cols": 7,
+      "sample_rows": [
+        [
+          "2 | 𝑄1 = [1 | 1",
+          "1 | 1]   | 1",
+          "0 | 𝐾1 = [1 | 2",
+          "1 | 0]  | 1",
+          "𝐾1𝑇 = [01",
+          "1 | 0",
+          "2]  | 1"
+        ]
+      ]
+    },
+    {
+      "idx": 6,
+      "rows": 1,
+      "cols": 5,
+      "sample_rows": [
+        [
+          "0,707 |  𝑠𝑜𝑓𝑡𝑚𝑎𝑥 [0,707 | 0,707",
+          "1,515 | 0,707 | 0,707",
+          "3,535\t0,035 | 2,121] = [0,115 | 2,121\t0,115",
+          "0,086 | 0,115 | 0,115",
+          "0,879 | 0,772]  | 0,772"
+        ]
+      ]
+    },
+    {
+      "idx": 7,
+      "rows": 1,
+      "cols": 2,
+      "sample_rows": [
+        [
+          "1,035 | Hasil atas [ 1,02 1,02",
+          "1,793 | 1,658] merupakan head 1 dan dapat dianggap sebagai 𝑍1.  | 1,658"
+        ]
+      ]
+    },
+    {
+      "idx": 8,
+      "rows": 3,
+      "cols": 2,
+      "sample_rows": [
+        [
+          "1\t0\t1 | berupa 𝑊0 = [0\t1\t0 | \t1\t1\t0 | \t0\t0\t1",
+          "0 | 1], sehingga output akhir adalah 𝑍𝑐𝑜𝑛𝑐𝑎𝑡 ∙ 𝑊0 = | 0 | 1"
+        ],
+        [
+          "1,035\t1,793     0,782 | [ 1,02\t1,658     1,2 | 1,02\t1,658     0,78",
+          "1,356\t1\t0\t1\t0 | 1, | 1,579 | \t0\t0\t1\t1"
+        ],
+        [
+          "1,817\t2,828\t2,381 | [ 2,05 2,678 2,678 1,8 2,538 2,599",
+          "3,139 | 3,316] yang merupakan vektor baru atas kata “kucing 3,327"
+        ]
+      ]
+    },
+    {
+      "idx": 9,
+      "rows": 4,
+      "cols": 7,
+      "sample_rows": [
+        [
+          "1,817 | sebagai berikut [ 2,05 | 1,8",
+          "2,828 | 2,678 | 2,538",
+          "2,381 | 2,678 | 2,599",
+          "3,139 | 3,316] dengan representasi kata awal 3,327",
+          "3,139 | 3,316] dengan representasi kata awal 3,327",
+          "3,139 | 3,316] dengan representasi kata awal 3,327",
+          "3,139 | 3,316] dengan representasi kata awal 3,327"
+        ],
+        [
+          "1,255\t0,122\t2,311\t0,230 | [0,231\t2,117\t1,225\t0,231] sehingga representasi dari (𝑥 + 𝑠𝑢𝑏𝑙𝑎𝑦𝑒𝑟(𝑥))",
+          "1,255\t0,122\t2,311\t0,230 | [0,231\t2,117\t1,225\t0,231] sehingga representasi dari (𝑥 + 𝑠𝑢𝑏𝑙𝑎𝑦𝑒𝑟(𝑥))",
+          "1,255\t0,122\t2,311\t0,230 | [0,231\t2,117\t1,225\t0,231] sehingga representasi dari (𝑥 + 𝑠𝑢𝑏𝑙𝑎𝑦𝑒𝑟(𝑥))",
+          "1,255\t0,122\t2,311\t0,230 | [0,231\t2,117\t1,225\t0,231] sehingga representasi dari (𝑥 + 𝑠𝑢𝑏𝑙𝑎𝑦𝑒𝑟(𝑥))",
+          "1,255\t0,122\t2,311\t0,230 | [0,231\t2,117\t1,225\t0,231] sehingga representasi dari (𝑥 + 𝑠𝑢𝑏𝑙𝑎𝑦𝑒𝑟(𝑥))",
+          "1,255\t0,122\t2,311\t0,230 | [0,231\t2,117\t1,225\t0,231] sehingga representasi dari (𝑥 + 𝑠𝑢𝑏𝑙𝑎𝑦𝑒𝑟(𝑥))",
+          "1,255\t0,122\t2,311\t0,230 | [0,231\t2,117\t1,225\t0,231] sehingga representasi dari (𝑥 + 𝑠𝑢𝑏𝑙𝑎𝑦𝑒𝑟(𝑥))"
+        ],
+        [
+          "1,228\t2,538\t0,215\t2,356 | adalah  | (𝑥 + 𝑠𝑢𝑏𝑙𝑎𝑦𝑒𝑟(𝑥)) =",
+          "1,228\t2,538\t0,215\t2,356 | adalah  | (𝑥 + 𝑠𝑢𝑏𝑙𝑎𝑦𝑒𝑟(𝑥)) =",
+          "1,228\t2,538\t0,215\t2,356 | adalah  | (𝑥 + 𝑠𝑢𝑏𝑙𝑎𝑦𝑒𝑟(𝑥)) =",
+          "1,228\t2,538\t0,215\t2,356 | adalah  | (𝑥 + 𝑠𝑢𝑏𝑙𝑎𝑦𝑒𝑟(𝑥)) =",
+          "",
+          "",
+          ""
+        ],
+        [
+          "1,255\t0,122\t2,311\t0,230\t1,817 | = [0,231\t2,117\t1,225\t0,231] + [ 2,05 | \t1,228\t2,538\t0,215\t2,356\t1,8 | \t3,062\t2,950\t5,652\t3,369 | = [2,271\t5,795\t3,902\t3,557]  | ",
+          "1,255\t0,122\t2,311\t0,230\t1,817 | = [0,231\t2,117\t1,225\t0,231] + [ 2,05 | \t1,228\t2,538\t0,215\t2,356\t1,8 | \t3,062\t2,950\t5,652\t3,369 | = [2,271\t5,795\t3,902\t3,557]  | ",
+          "1,255\t0,122\t2,311\t0,230\t1,817 | = [0,231\t2,117\t1,225\t0,231] + [ 2,05 | \t1,228\t2,538\t0,215\t2,356\t1,8 | \t3,062\t2,950\t5,652\t3,369 | = [2,271\t5,795\t3,902\t3,557]  | ",
+          "1,255\t0,122\t2,311\t0,230\t1,817 | = [0,231\t2,117\t1,225\t0,231] + [ 2,05 | \t1,228\t2,538\t0,215\t2,356\t1,8 | \t3,062\t2,950\t5,652\t3,369 | = [2,271\t5,795\t3,902\t3,557]  | ",
+          "2,828 | 2,678 | 2,538",
+          "2,381 | 2,678 | 2,599",
+          "3,139 | 3,316]   | 3,327"
+        ]
+      ]
+    },
+    {
+      "idx": 10,
+      "rows": 1,
+      "cols": 4,
+      "sample_rows": [
+        [
+          "−0,6595 | [ 0,0000 0,0000",
+          "−0,8258 0,1000 | 0,1000",
+          "1,6872 | 0,2000 | 0,2000",
+          "−0,2035 | 0,3000\t]  | 0,3000"
+        ]
+      ]
+    },
+    {
+      "idx": 11,
+      "rows": 1,
+      "cols": 4,
+      "sample_rows": [
+        [
+          "−0,953 | diilustrasikan sebagai berikut [ 2,05 2,05",
+          "−0,906 | 3,678 | 3,583",
+          "1,557 | 3,678 | 2,399",
+          "0,517 | 5,316 ] sehingga akan  | 5,237"
+        ]
+      ]
+    },
+    {
+      "idx": 12,
+      "rows": 2,
+      "cols": 6,
+      "sample_rows": [
+        [
+          "1,0 | 0,0 | 𝑤1 = [−0,5 | 0,5",
+          "−1,0 | 1,0 | 0,0 | −0,5",
+          "0,5\t0,0 | −1,0\t0,5 | ] dan 𝑏 | 1,0\t−1,0\t1 = [0,1 | 0,0\t1,0",
+          "−0,2",
+          "0,0",
+          "0,1]"
+        ],
+        [
+          "0,5 | −0,5 | 𝑤2 = [ 0,0 | 1,0",
+          "0,0 | 1,0 | −0,5 | 0,5",
+          "−0,5\t1,0 | 0,0\t−0,5 | ] dan 𝑏 | 1,0\t0,0\t2 = [−0,1 | −0,5\t0,5",
+          "0,1",
+          "0,2",
+          "0,0]"
+        ]
+      ]
+    },
+    {
+      "idx": 13,
+      "rows": 1,
+      "cols": 7,
+      "sample_rows": [
+        [
+          "+[0,1",
+          "−0,2",
+          "0,0",
+          "−1,368 | 0,1] = [ 2,559 3,719",
+          "−0,362 | −0,720 | −1,680",
+          "1,876 | 1,020 | 0,560",
+          "−1,383 | 2,577 ]   | 3,557"
+        ]
+      ]
+    },
+    {
+      "idx": 14,
+      "rows": 1,
+      "cols": 3,
+      "sample_rows": [
+        [
+          "−0,100 | [ 3,706 5,217",
+          "−0,838\t2,077 0,878\t−1,298 | 1,557\t−2,827",
+          "0,000 | 3,758]. Proses kemudian akan dilanjutkan dengan tahap 5,558"
+        ]
+      ]
+    },
+    {
+      "idx": 15,
+      "rows": 2,
+      "cols": 6,
+      "sample_rows": [
+        [
+          "",
+          "",
+          "0\t0\t     0",
+          "",
+          "",
+          ""
+        ],
+        [
+          "0,707 | [0,707 | 0,707",
+          "1,515 | 0,707 | 0,707",
+          "3,535\t0\t −∞ | 2,121] + [0\t 0 | 2,121\t0\t0",
+          "−∞\t0,707 |  −∞ ] = [0,707 |      0\t0,707",
+          "−∞ | 0,707 | 0,707",
+          "−∞ | −∞ ]  | 2,121"
+        ]
+      ]
+    },
+    {
+      "idx": 16,
+      "rows": 1,
+      "cols": 3,
+      "sample_rows": [
+        [
+          "0,707 | setiap nilai 𝑒−∞ = 0. Proses tersebut membuat [0,707 0,707",
+          "−∞ | 0,707 | 0,707",
+          "−∞ | −∞ ] menjadi 2,121"
+        ]
+      ]
+    },
+    {
+      "idx": 17,
+      "rows": 2,
+      "cols": 3,
+      "sample_rows": [
+        [
+          "0,888 | [0,775 | 0,888",
+          "0,055 | 0,098 | 0,053",
+          "0,057 | 0,035] \tmaka \tdari \tmatriks \ttersebut \takan \tdiambil 0,059"
+        ],
+        [
+          "[0,888",
+          "0,775",
+          "0,888] Softmax menghasilkan distribusi probabilitas terhadap"
+        ]
+      ]
+    },
+    {
+      "idx": 18,
+      "rows": 3,
+      "cols": 6,
+      "sample_rows": [
+        [
+          "",
+          "Precision",
+          "Recall",
+          "F1 Score",
+          "Accuracy",
+          "Inference Time/Sampel"
+        ],
+        [
+          "BERT + KNN  | (FAISS)",
+          "0,82",
+          "0,82",
+          "0,82",
+          "0,83",
+          "0,1312"
+        ],
+        [
+          "BERT +  | Logistic  | Regression",
+          "0,87",
+          "0,86",
+          "0,87",
+          "0,88",
+          "0,0015"
+        ]
+      ]
+    },
+    {
+      "idx": 19,
+      "rows": 4,
+      "cols": 5,
+      "sample_rows": [
+        [
+          "No",
+          "Pertanyaan",
+          "Hasil Sistem",
+          "Skor  | Kesesuaian dan  | relevansi  | (SeaLLMsv3-1.5b- | Chat)",
+          "Skor  | Kesesuaian dan  | relevansi  | (Gemini 3)"
+        ],
+        [
+          "1",
+          "Siapa yang pertama kali mengajukan model struktur  | DNA?",
+          "James Dewey Watson dan Francis Crick pertama kali mengajukan model struktur DNA pada tahun 1953.",
+          "5",
+          "5"
+        ],
+        [
+          "2",
+          "Apa saja empat jenis basa nitrogen yang menyusun DNA?",
+          "Empat jenis basa nitrogen yang menyusun DNA adalah:  | A (adenina)  | T (timina)  | G (guanina)  | C (sitosina)",
+          "5",
+          "5"
+        ],
+        [
+          "3",
+          "Berapa ukuran terbesar dari buaya muara?",
+          "Ukuran terbesar dari buaya muara hingga kini masih diperdebatkan.",
+          "3",
+          "5"
+        ]
+      ]
+    },
+    {
+      "idx": 20,
+      "rows": 7,
+      "cols": 5,
+      "sample_rows": [
+        [
+          "5",
+          "Apa suku terbesar yang terdapat di kalimantan?",
+          "Suku terbesar yang terdapat di Kalimantan adalah Dayak.",
+          "5",
+          "5"
+        ],
+        [
+          "5",
+          "Menurut Sigfried J. de Leat, arkeologi merupakan cabang dari ilmu apa?",
+          "Menurut Sigfried J. de Leat, arkeologi merupakan cabang dari sejarah.",
+          "3",
+          "5"
+        ],
+        [
+          "6",
+          "Siapakah raja terakhir Babylon yang tercatat melakukan kegiatan purbawanisme?",
+          "Raja terakhir Babylon yang tercatat melakukan kegiatan purbawanisme adalah Nabonidus.",
+          "5",
+          "5"
+        ],
+        [
+          "7",
+          "Apa definisi arkeologi menurut Cotrell Leonard?",
+          "Arkeologi menurut Cotrell Leonard adalah \"arkeologi sebagai cerita tentang manusia dengan mengacu pada peninggalan seperti peralatan yang digunakan, monumen, ke",
+          "5",
+          "5"
+        ],
+        [
+          "8",
+          "Bahasa apa yang digunakan sebagai bahasa kenegaraan oleh Kerajaan Sriwijaya sejak abad ke-7?",
+          "Bahasa Melayu (sebagai bahasa  | Melayu Kuno)",
+          "5",
+          "5"
+        ]
+      ]
+    },
+    {
+      "idx": 21,
+      "rows": 6,
+      "cols": 5,
+      "sample_rows": [
+        [
+          "11",
+          "Apa yang bisa menyebabkan kesalahpahaman dalam komunikasi antara orang Bali  | Selatan dan Bali Utara terkait penunjuk arah?",
+          "Perbedaan tata-cara menyebut utara dan selatan yang sering menyebabkan kesalahpahaman dalam komunikasi antara orang Bali Selatan dan Bali Utara terkait penunjuk",
+          "3",
+          "5"
+        ],
+        [
+          "12",
+          "Bandingkan risiko efek samping vaksin  | MMRV yang  | diberikan pada anak usia 12 bulan dengan anak usia 5 tahun!",
+          "Vaksin MMRV tidak menambahkan kejadian febrile seizures, demam ringan, atau gatal-gatal pada anak yang diberi vaksin pada usia 12 bulan. Sebaliknya, di kalangan",
+          "3",
+          "2"
+        ],
+        [
+          "13",
+          "Jelaskan mengapa tetesan minyak dianggap lebih cocok daripada tetesan air untuk percobaan yang dilakukan oleh Millikan!",
+          "Tetesan minyak dianggap lebih cocok daripada tetesan air untuk percobaan yang dilakukan oleh Millikan karena laju penguapan minyak yang lebih lambat dibandingka",
+          "5",
+          "5"
+        ],
+        [
+          "15",
+          "Siapa fisikawan yang mengukur muatan elektron secara saksama dalam percobaan tetesan minyak?",
+          "Fisikawan yang mengukur muatan elektron secara saksama dalam Percobaan tetesan minyak pada tahun 1909 adalah Robert Millikan.",
+          "5",
+          "5"
+        ],
+        [
+          "15",
+          "Apa nama prinsip yang melarang lebih  | dari satu elektron menduduki keadaan energi kuantum yang sama?",
+          "Asas pengecualian Pauli",
+          "5",
+          "5"
+        ]
+      ]
+    },
+    {
+      "idx": 22,
+      "rows": 10,
+      "cols": 3,
+      "sample_rows": [
+        [
+          "Jumlah  | Halaman  | Dokumen",
+          "Waktu Proses  | Chunk Hingga Save",
+          "Lampiran"
+        ],
+        [
+          "5 Halaman",
+          "2,39 Detik",
+          ""
+        ],
+        [
+          "10 Halaman",
+          "5,91 Detik",
+          ""
+        ],
+        [
+          "20 Halaman",
+          "11,51 Detik",
+          ""
+        ],
+        [
+          "50 Halaman",
+          "26,5 Detik",
+          ""
+        ]
+      ]
+    },
+    {
+      "idx": 23,
+      "rows": 9,
+      "cols": 4,
+      "sample_rows": [
+        [
+          "Target Test",
+          "Test Code",
+          "Tujuan",
+          "Status"
+        ],
+        [
+          "Auth @login",
+          "test_login_success",
+          "Memvalidasi keberhasilan proses  | autentikasi pengguna  | dengan kredensial yang valid.",
+          "PASSED"
+        ],
+        [
+          "Auth @signup",
+          "test_signup_success",
+          "Memvalidasi integritas data dan keberhasilan proses pendaftaran pengguna baru.",
+          "PASSED"
+        ],
+        [
+          "Public @kritiksaran",
+          "test_kritik_saran_get",
+          "Memastikan endpoint kritiksaran merespon  | HTTP 200 (GET request).",
+          "PASSED"
+        ],
+        [
+          "Public @kritiksaran",
+          "test_kritik_saran_post _empty_field",
+          "Memvalidasi penanganan error/pesan peringatan saat field input kosong.",
+          "PASSED"
+        ]
+      ]
+    }
+  ],
+  "media_count": 151,
+  "media_files_first10": [
+    "word/media/image3.jpg",
+    "word/media/image4.jpg",
+    "word/media/image5.jpg",
+    "word/media/image6.jpg",
+    "word/media/image7.jpg",
+    "word/media/image8.png",
+    "word/media/image9.png",
+    "word/media/image10.png",
+    "word/media/image11.png",
+    "word/media/image12.png"
+  ],
+  "has_comments": false,
+  "has_footnotes": true,
+  "has_endnotes": true,
+  "sectpr_count_xml": 5,
+  "drawing_count_xml": 152,
+  "first_80_paragraphs": [
+    {
+      "idx": 1,
+      "style": "Normal",
+      "text": "BAB 5",
+      "align": "CENTER (1)",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 13.85,
+      "line_spacing": 1.0791666666666666,
+      "run_samples": [
+        {
+          "text": "BAB",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": "Arial",
+          "size_pt": 14.0
+        },
+        {
+          "text": "5",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": "Arial",
+          "size_pt": 14.0
+        }
+      ],
+      "fonts": [
+        [
+          "Arial",
+          2
+        ]
+      ],
+      "sizes_pt": [
+        [
+          "14.0",
+          2
+        ]
+      ],
+      "bold_run_count": 2,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 2,
+      "style": "Normal",
+      "text": "HASIL PENELITIAN",
+      "align": "CENTER (1)",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 13.85,
+      "line_spacing": 1.0791666666666666,
+      "run_samples": [
+        {
+          "text": "HASIL PENELITIAN",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": "Arial",
+          "size_pt": 14.0
+        }
+      ],
+      "fonts": [
+        [
+          "Arial",
+          1
+        ]
+      ],
+      "sizes_pt": [
+        [
+          "14.0",
+          1
+        ]
+      ],
+      "bold_run_count": 1,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 3,
+      "style": "Heading 1",
+      "text": "5.1  \tTahapan Perancangan dan Desain Sistem",
+      "align": "LEFT (0)",
+      "left_indent_cm": -0.03,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 12.9,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "5",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": "Arial",
+          "size_pt": null
+        },
+        {
+          "text": ".1",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": "Arial",
+          "size_pt": null
+        },
+        {
+          "text": "Tahapan Perancangan dan Desain Sistem",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": "Arial",
+          "size_pt": null
+        }
+      ],
+      "fonts": [
+        [
+          "Arial",
+          3
+        ]
+      ],
+      "sizes_pt": [],
+      "bold_run_count": 3,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 4,
+      "style": "Heading 2",
+      "text": "5.1.1  Rancangan Kebutuhan Sistem",
+      "align": "LEFT (0)",
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 12.7,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "5",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": "Arial",
+          "size_pt": null
+        },
+        {
+          "text": ".1.1  Rancangan Kebutuhan Sistem",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": "Arial",
+          "size_pt": null
+        }
+      ],
+      "fonts": [
+        [
+          "Arial",
+          2
+        ]
+      ],
+      "sizes_pt": [],
+      "bold_run_count": 2,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 5,
+      "style": "Normal",
+      "text": "Menentukan kebutuhan sistem menjadi tahap awal pengembangan perangkat lunak dengan metode waterfall. Fokus utama dalam perancangan kebutuhan ini bertujuan untuk mengidentifikasi serta mendefinisikan hal yang harus dimiliki oleh sistem sehingga memastikan solusi yang dimunculkan menyelesaikan rumusan masalah yang telah ditetapkan pada bab sebelumnya. Tahap analisis kebutuhan tidak membahas kode program yang ditulis dan berfokus pada perancangan API chatbot berbasis dokumen PDF dengan kemampuan Retrieval-Augmented Generation (RAG) dan fitur deteksi ujaran kebencian (hate speech detection) menggunakan hybrid BERT.",
+      "align": null,
+      "left_indent_cm": -0.03,
+      "first_line_indent_cm": 1.25,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Menentukan kebutuhan sistem menjadi tahap awal pengembangan perangkat lunak deng",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 6,
+      "style": "Normal",
+      "text": "Kebutuhan sistem yang dibangun didasarkan pada kompleksitas NLP yang melibatkan pemahaman dokumen eksternal dan klasifikasi sentimen negatif. Kebutuhan sistem yang dirancang dikelompokkan menjadi kebutuhan fungsional dan kebutuhan nonfungsional.",
+      "align": null,
+      "left_indent_cm": -0.03,
+      "first_line_indent_cm": 1.25,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Kebutuhan sistem yang dibangun didasarkan pada kompleksitas NLP yang melibatkan ",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 7,
+      "style": "Normal",
+      "text": "Kebutuhan fungsional dalam sistem ditujukan untuk memberikan layanan spesifik sebagai dasar yang harus disediakan oleh sistem, menanggapi input yang diberikan sistem, hingga perilaku sistem dalam situasi tertentu. Adapun fitur-fitur fungsional dalam sistem yang dirancang sebagai berikut:",
+      "align": null,
+      "left_indent_cm": -0.03,
+      "first_line_indent_cm": 1.25,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Kebutuhan fungsional dalam sistem ditujukan untuk memberikan layanan spesifik se",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 8,
+      "style": "Normal",
+      "text": "Kemampuan menerima dan mengekstraksi dokumen PDF berupa kemampuan",
+      "align": null,
+      "left_indent_cm": null,
+      "first_line_indent_cm": -0.64,
+      "space_before_pt": null,
+      "space_after_pt": 28.0,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Kemampuan menerima dan mengekstraksi dokumen PDF berupa kemampuan",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 9,
+      "style": "Normal",
+      "text": "68",
+      "align": "CENTER (1)",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 0.0,
+      "line_spacing": 1.0791666666666666,
+      "run_samples": [
+        {
+          "text": "68",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 11,
+      "style": "Normal",
+      "text": "dalam menerima input file dokumen dengan format .pdf. Dokumen yang telah diterima kemudian akan dilakukan proses ekstraksi untuk mengambil teks mentah.",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "dalam menerima input file dokumen dengan format .pdf. Dokumen yang telah diterim",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 12,
+      "style": "Normal",
+      "text": "Proses pemrosesan teks yang telah diekstrak tersebut kemudian akan dibuah menjadi vektor yang dalam prosesnya melibatkan proses embedding yang menggunakan arsitektur transformer untuk mengubah potongan teks (chunks) menjadi vektor berdimensi tinggi, kemudian hasil embedding akan disimpan dalam database vektor.",
+      "align": null,
+      "left_indent_cm": null,
+      "first_line_indent_cm": -0.64,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Proses pemrosesan teks yang telah diekstrak tersebut kemudian akan dibuah menjad",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 13,
+      "style": "Normal",
+      "text": "Deteksi ujaran kebencian menggunakan model hybrid yang membuat sistem mampu memvalidasi etika bahasa dari pertanyaan input user. Proses ini melibatkan klasifikasi untuk pertanyaan yang menggunakan pendekatan hybrid dengan BERT sebagai extractor (mengambil embedding kontekstual) dan ditambahkan algoritma KNN atau Logistic Regression untuk menentukan apakah teks mengandung hate speech atau netral.",
+      "align": null,
+      "left_indent_cm": null,
+      "first_line_indent_cm": -0.64,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Deteksi ujaran kebencian menggunakan model hybrid yang membuat sistem mampu memv",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 14,
+      "style": "Normal",
+      "text": "Proses Retrieval-Augmented Generation (RAG) menjadi tujuan utama dalam menjawab pertanyaan berdasarkan konteks jawaban. Tahap ini meliputi kebutuhan fungsional atas:",
+      "align": null,
+      "left_indent_cm": null,
+      "first_line_indent_cm": -0.64,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Proses Retrieval-Augmented Generation (RAG) menjadi tujuan utama dalam menjawab ",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 15,
+      "style": "Normal",
+      "text": "Pencarian semantik (Retrieval) merupakan penencarian potongan teks (chunk) dalam vektor yang memiliki kemiripan tertinggi dengan pertanyaan pengguna.",
+      "align": null,
+      "left_indent_cm": null,
+      "first_line_indent_cm": -0.63,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Pencarian semantik (Retrieval) merupakan penencarian potongan teks (chunk) dalam",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 16,
+      "style": "Normal",
+      "text": "Augmentasi prompt yang menggabungkan pertanyaan pengguna dengan teks yang relevan sehingga membentuk prompt sesuai instruksi.",
+      "align": null,
+      "left_indent_cm": null,
+      "first_line_indent_cm": -0.63,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Augmentasi prompt yang menggabungkan pertanyaan pengguna dengan teks yang releva",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 17,
+      "style": "Normal",
+      "text": "Generasi jawaban (Generation) untuk mengirimkan prompt ke dalam model",
+      "align": null,
+      "left_indent_cm": null,
+      "first_line_indent_cm": -0.63,
+      "space_before_pt": null,
+      "space_after_pt": 12.95,
+      "line_spacing": 1.0791666666666666,
+      "run_samples": [
+        {
+          "text": "Generasi jawaban (Generation) untuk mengirimkan prompt ke dalam model",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 18,
+      "style": "Normal",
+      "text": "LLM, yaitu SeaLLLM, untuk menghasilkan jawaban yang sesuai dengan pertanyaan dalam bahasa Indonesia atau bahasa Inggris.",
+      "align": "RIGHT (2)",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 13.0,
+      "line_spacing": 1.0791666666666666,
+      "run_samples": [
+        {
+          "text": "LLM, yaitu SeaLLLM, untuk menghasilkan jawaban yang sesuai dengan pertanyaan dal",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 19,
+      "style": "Normal",
+      "text": "Penyediaan API (Application Programming Interface) yang menjadi back-end service dalam proses chatbot akan menyediakan sistem endpoint tanya jawab yang diakses menggunakan metode HTTP POST pada URL yang telah dibuat. Memperjelas spesifikasi atas kebutuhan fungsional sistem maka disajikan tabel kebutuhan fungsional sistem sebagai berikut:",
+      "align": null,
+      "left_indent_cm": null,
+      "first_line_indent_cm": -0.64,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Penyediaan API (Application Programming Interface) yang menjadi back-end service",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 20,
+      "style": "Heading 1",
+      "text": "Tabel 5.1 Kebutuhan Fungsional Sistem",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 0.0,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Tabel",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".1",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "Kebutuhan Fungsional Sistem",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 3,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 23,
+      "style": "Normal",
+      "text": "Kebutuhan nonfungsional merupakan standar kualitas yang dipenuhi sistem agar sistem dapat berjalan dengan baik dan menentukan apakah sistem memuaskan atau tidak. Kebutuhan non-fungsional ini meliputi performa, dan batasan operasional. Adapun hal yang menjadi kebutuhan non-fungsional sebagai berikut:",
+      "align": null,
+      "left_indent_cm": -0.03,
+      "first_line_indent_cm": 1.25,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Kebutuhan nonfungsional merupakan standar kualitas yang dipenuhi sistem agar sis",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 24,
+      "style": "Normal",
+      "text": "Batasan waktu sistem dalam berpindah halaman menunjukkan responsivitas antarmuka sistem terhadap interaksi pengguna. Sistem dirancang dengan upaya untuk memberikan respons yang cepat ketika user berpindah halaman. Waktu tunggu (page load) menjadi acuan dalam memberikan user experience yang baik sehingga target antarmuka < 20 detik.",
+      "align": null,
+      "left_indent_cm": null,
+      "first_line_indent_cm": -0.64,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Batasan waktu sistem dalam berpindah halaman menunjukkan responsivitas antarmuka",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 25,
+      "style": "Normal",
+      "text": "Akses login menggunakan username dan password oleh user sehingga adanya aspek keamanan yang diberikan kepada user dalam menggunakan sistem.",
+      "align": null,
+      "left_indent_cm": null,
+      "first_line_indent_cm": -0.64,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Akses login menggunakan username dan password oleh user sehingga adanya aspek ke",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 26,
+      "style": "Normal",
+      "text": "Sistem database penyimpanan data yang menyimpan seluruh data secara aman yang diberikan oleh user dan dapat diakses kembali ketika hendak digunakan oleh user.",
+      "align": null,
+      "left_indent_cm": null,
+      "first_line_indent_cm": -0.64,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Sistem database penyimpanan data yang menyimpan seluruh data secara aman yang di",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 27,
+      "style": "Normal",
+      "text": "Memperjelas spesifikasi atas kebutuhan non-fungsional sistem maka disajikan tabel kebutuhan fungsional sistem sebagai berikut:",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Memperjelas spesifikasi atas kebutuhan non-fungsional sistem maka disajikan tabe",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 28,
+      "style": "Heading 1",
+      "text": "Tabel 5.2 Kebutuhan Non-Fungsional Sistem",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 0.0,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Tabel",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".2",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "Kebutuhan Non-Fungsional Sistem",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 3,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 30,
+      "style": "Heading 2",
+      "text": "5.1.2  Rancangan Desain Sistem",
+      "align": "LEFT (0)",
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 12.7,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "5",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": "Arial",
+          "size_pt": null
+        },
+        {
+          "text": ".1.2  Rancangan Desain Sistem",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": "Arial",
+          "size_pt": null
+        }
+      ],
+      "fonts": [
+        [
+          "Arial",
+          2
+        ]
+      ],
+      "sizes_pt": [],
+      "bold_run_count": 2,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 31,
+      "style": "Normal",
+      "text": "Tahap desain merupakan fase penerapan arsitektur yang ditransformasikan ke dalam bentuk visual. Tahap desain ini dibagi menjadi empat bagian, yaitu rancangan arsitektur sistem, desain user flow diagram atau wireflow, perancangan antarmuka pengguna (User Interface), dan database.",
+      "align": null,
+      "left_indent_cm": -0.03,
+      "first_line_indent_cm": 1.25,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Tahap desain merupakan fase penerapan arsitektur yang ditransformasikan ke dalam",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 32,
+      "style": "Heading 3",
+      "text": "5.1.2.1 Desain Arsitektur Sistem",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".1.2.1 Desain Arsitektur Sistem",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 33,
+      "style": "Normal",
+      "text": "Arsitektur sistem menjelaskan rancangan alur proses antarkomponen yang disertai interaksi antarkomponen. Rancangan arsitektur sistem bertujuan mengintegrasikan penyediaan API untuk RAG dan filter. Frontend dan backend bekerja bersama dalam memproses data hingga menyajikan informasi kepada pengguna. Ilustrasi rancangan web penyedia chatbot ditampilkan pada Gambar 5.1.",
+      "align": null,
+      "left_indent_cm": -0.03,
+      "first_line_indent_cm": 1.25,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Arsitektur sistem menjelaskan rancangan alur proses antarkomponen yang disertai ",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".1.",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 35,
+      "style": "Heading 1",
+      "text": "Gambar 5.1 Arsitektur Sistem Web Penyedia Chatbot",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Gambar",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".1",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "Arsitektur Sistem Web Penyedia Chatbot",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 3,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 36,
+      "style": "Normal",
+      "text": "Gambar 5.1 merupakan ilustrasi arsitektur sistem yang akan dirancang yang terbagi menjadi dua bagian, yaitu frontend dan backend. Frontend bertugas untuk menyediakan antarmuka pengguna untuk user melakukan input data dan memperoleh hasil pengolahan. Tugas tersebut meliputi penyediaan antarmuka pengguna untuk melakukan input data dokumen PDF serta interaksi percakapan dengan chatbot. Backend pada proses ini memegang peran penting yang bertugas mengatur RAG dan filter ujaran kebencian. Saat pengguna mengunggah PDF, backend akan melakukan berbagai rangkaian proses yang kemudian menghasilkan hasil akhir berupa penyimpanan informasi dokumen ke dalam database vektor dan menghasilkan API yang dapat digunakan oleh user. Alur sistem berjalan dan keterkaitan antara frontend, backend, dan sistem AI ditunjukkan pada gambar sebagai berikut.",
+      "align": null,
+      "left_indent_cm": -0.03,
+      "first_line_indent_cm": 1.25,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Gambar",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".1 merupakan ilustrasi arsitektur sistem yang akan dirancang yang terbagi menjad",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 38,
+      "style": "Heading 1",
+      "text": "Gambar 5.2 Arsitektur Berjalan Sistem Web",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Gambar",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".2",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "Arsitektur Berjalan Sistem Web",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 3,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 39,
+      "style": "Normal",
+      "text": "Gambar 5.2 merupakan arsitektur berjalan dari sistem web yang dibuat. User memiliki akses terhadap web chatbot dan admin hanya memiliki akses terhadap web administrasi user yang mengelola user. Data user yang berupa nama pengguna hingga password akan disimpan pada database MySQL. Sistem akan menggunakan id sebagai kunci referensi yang diperoleh berdasarkan informasi pengguna pada MySQL, sehingga database vektor akan menggunakan informasi id tersebut sebagai acuan dalam menyimpan informasi dokumen pengguna sehingga pencarian konteks bersifat privat bagi setiap pengguna. Hasil dari API key yang telah dibuat kemudian dapat digunakan untuk sistem chatbot. Model AI yang digunakan dalam sistem berupa hate speech detection dan chatbot dengan teknik RAG.",
+      "align": null,
+      "left_indent_cm": -0.03,
+      "first_line_indent_cm": 1.25,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Gambar",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".2 merupakan arsitektur berjalan dari sistem web yang dibuat. User memiliki akse",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 40,
+      "style": "Normal",
+      "text": "Sistem yang dibangun menggunakan arsitektur web berbasis Django yang terstruktur. Struktur pada user yang dirancang bertujuan untuk memastikan pengelolaan data mulai dari interaksi pengguna dari halaman web hingga pemrosesan permintaan.  Adapun arsitektur user ditunjukkan pada Gambar 5.3 sebagai berikut.",
+      "align": null,
+      "left_indent_cm": -0.03,
+      "first_line_indent_cm": 1.25,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Sistem yang dibangun menggunakan arsitektur web berbasis Django yang terstruktur",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".3 sebagai berikut.",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 42,
+      "style": "Heading 1",
+      "text": "Gambar 5.3 Arsitektur Web User",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Gambar",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".3",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "Arsitektur Web User",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 3,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 43,
+      "style": "Normal",
+      "text": "Gambar 5.3 merupakan arsitektur web pada pengguna umum (user). Django session management merupakakn lapisan keamanan untuk mengelola sesi pengguna dan memastikan bahwa setiap pengguna tetap ter-otentikasi pada data pribadi pengguna. Front end routing akan mengarahkan pengguna ke halaman-halaman yang dipilih sesuai dengan permintaan pengguna. Fitur-fitur yang disedikan bagi user tercantum pada kotak component & feature yang berupa landing page, feedback, login, sign up, forgot password, dashboard, add data, documentation, try API, usser setting, dan view API.",
+      "align": null,
+      "left_indent_cm": -0.03,
+      "first_line_indent_cm": 1.25,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Gambar",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".3 merupakan arsitektur web pada pengguna umum (user). Django session management",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 44,
+      "style": "Normal",
+      "text": "Sistem disertakan komunikasi HTTP Client untuk perantara dalam pertukaran informasi. Dengan adanya lapisan tersebut, sistem tidak perlu memuat ulang halaman untuk melakukan pertukaran data sehingga memberikan sistem yang lebih responsif dengan fitur chatbot yang dapat diintegrasikan pada web pribadi pengguna. RESTFul API bertindak sebagia jalur dalam memproses setiap instruksi yang dikirim oleh sistem melalui HTTP Client (proses berupa pengambilan data hingga pengiriman hasil dari proses AI).",
+      "align": null,
+      "left_indent_cm": -0.03,
+      "first_line_indent_cm": 1.25,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Sistem disertakan komunikasi HTTP Client untuk perantara dalam pertukaran inform",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 45,
+      "style": "Normal",
+      "text": "Selain arsitektur web user, arsitektur web admin juga memiliki peran penting dalam peran untuk mengelola data pengguna. Adapun arsitektur web admin diilustrasikan dalam Gambar 5.5 sebagai berikut.",
+      "align": null,
+      "left_indent_cm": -0.03,
+      "first_line_indent_cm": 1.25,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Selain arsitektur web user, arsitektur web admin juga memiliki peran penting dal",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 47,
+      "style": "Heading 1",
+      "text": "Gambar 5.5 Arsitektur Web Admin",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Gambar",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 4,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 48,
+      "style": "Normal",
+      "text": "Gambar 5.5 merupakan arsitektur web pada kebutuhan administratif. Arsitektur tersebut dirancang menggunakan Django web application dengan manajemen akses yang terisolasi dari pengguna umum. Alur akses tersebut dimulai dari front-end routing yang menerima dari web browser melalui domain khusus. Hasil login yang berhasil pada admin akan memberikan kendali atas fitur dashboard, user management, user management message, dan penanggapan umpan balik dari pengguna.",
+      "align": "RIGHT (2)",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 0.15,
+      "line_spacing": 1.9875,
+      "run_samples": [
+        {
+          "text": "Gambar",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 49,
+      "style": "Normal",
+      "text": "Pemisahan fitur dalam arsitektur admin didukung dengan util function dan theme & styling untuk desain antarmuka. Tema & styling digunakan untuk memastikan pengalaman pengguna yang seragam dan konsisten. Dipisahkannya sistem admin dan user memberikan tugas kepada admin dalam melakukan pengawasan serta pemastian operasional chatbot dengan integritas atas permintaan pengguna.",
+      "align": null,
+      "left_indent_cm": -0.03,
+      "first_line_indent_cm": 1.25,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Pemisahan fitur dalam arsitektur admin didukung dengan util function dan theme &",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 50,
+      "style": "Normal",
+      "text": "Pengembangan sistem diorganisasikan ke dalam struktur direktori untuk mempermudah pengelolaan kode dan pemeliharaan sistem. Struktur proyek tersebut dapat digambarkan pada Gambar 5.5 sebagai berikut.",
+      "align": null,
+      "left_indent_cm": -0.03,
+      "first_line_indent_cm": 1.25,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Pengembangan sistem diorganisasikan ke dalam struktur direktori untuk mempermuda",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".5 sebagai berikut.",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 52,
+      "style": "Heading 1",
+      "text": "Gambar 5.5 Struktur Direktori Sistem",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Gambar",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".5",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "Struktur Direktori Sistem",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 3,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 53,
+      "style": "Normal",
+      "text": "Gambar 5.5 merupakan struktur hierarki direktori pada proyek andreasproject.",
+      "align": "RIGHT (2)",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 0.15,
+      "line_spacing": 1.0791666666666666,
+      "run_samples": [
+        {
+          "text": "Gambar",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".5 merupakan struktur hierarki direktori pada proyek andreasproject.",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 54,
+      "style": "Normal",
+      "text": "Struktur proyek terbagi menjadi beberapa bagian utama dengan mywebsite sebagai inti dari logika bisnis. Pada folder mywebsite terdapat folder process yang menjadi pusat proses kecerdasan buatan seperti proses RAG untuk chatbot. Pemisahan direktori memastikan logika AI tidak bercampur dan mudah dikelola.",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Struktur proyek terbagi menjadi beberapa bagian utama dengan mywebsite sebagai i",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 55,
+      "style": "Normal",
+      "text": "Aspek tampilan dikelola dalam folder templates dan template yang menyimpan seluruh HTML antarmuka dengan komponen seperti header, footer, dan sidebar. Penggunaan komponen tersebut terbagi dengan tujuan agar dalam pengembangan elemen visual dasar tidak memerlukan modifikasi yang banyak.",
+      "align": null,
+      "left_indent_cm": -0.03,
+      "first_line_indent_cm": 1.25,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Aspek tampilan dikelola dalam folder templates dan template yang menyimpan selur",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 56,
+      "style": "Normal",
+      "text": "Folder static berperan sebagai tempat penyimpanan untuk penunjang web seperti CSS, JS, gambar, hingga pustaka pihak ketiga. Seluruh proses yang berperan sebagai pintu masuk utama dalam menjalankan aplikasi terdapat pada file manage.py dan requirements.txt yang berperan untuk mencatat berbagai pustaka agar tetap konsisten di berbagai perangkat. Adanya sistem yang sistematis tersebut menyebabkan web yang dirancang memberikan kemudahan bagi pengembang berkelanjutan dan integrasi sistem lainnya di masa mendatang.",
+      "align": null,
+      "left_indent_cm": -0.03,
+      "first_line_indent_cm": 1.25,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Folder static berperan sebagai tempat penyimpanan untuk penunjang web seperti CS",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "web yang dirancang memberikan kemudahan bagi pengembang berkelanjutan dan integr",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 57,
+      "style": "Heading 2",
+      "text": "5.1.2.2  User Flow Diagram atau Wireflow",
+      "align": "LEFT (0)",
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 12.7,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "5",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": "Arial",
+          "size_pt": null
+        },
+        {
+          "text": ".1.2.2  User Flow Diagram atau Wireflow",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": "Arial",
+          "size_pt": null
+        }
+      ],
+      "fonts": [
+        [
+          "Arial",
+          2
+        ]
+      ],
+      "sizes_pt": [],
+      "bold_run_count": 2,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 58,
+      "style": "Normal",
+      "text": "Sketsa tersebut menunjukkan bagaimana proses perpindahan halaman ke halaman melalui tombol aksi yang konsisten sehingga jalur perpindahan tersebut menggambarkan hubungan antarbagian yang utuh pada web. Berikut Gambar 5.6 yang menggambarkan ilustrasi prototype website user, antara lain:",
+      "align": null,
+      "left_indent_cm": -0.03,
+      "first_line_indent_cm": 1.25,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Sketsa tersebut menunjukkan bagaimana proses perpindahan halaman ke halaman mela",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".6 yang menggambarkan ilustrasi prototype website user, antara lain:",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 60,
+      "style": "Normal",
+      "text": "Gambar 5.6 Prototype Desain Website User",
+      "align": null,
+      "left_indent_cm": 3.52,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 0.0,
+      "line_spacing": 1.0791666666666666,
+      "run_samples": [
+        {
+          "text": "Gambar",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".6",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "Prototype Desain Website User",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 3,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 61,
+      "style": "Normal",
+      "text": "Berdasarkan rancangan prototipe Gambar 5.6, alur kerja sistem CHAPI dibagi menjadi 5 fase utama, yaitu fase autentikasi, fase pengelolaan data API, fase pengujian dan integrasi, dan fase manajemen profil. Fase autentikasi pada awal dimulai dari proses masuk di landing page, di mana nantinya pengguna akan diarahkan ke halaman sign-in. Apabila pengguna merupakan pengguna baru, maka pengguna melakukan registrasi melalui tombol sign-up. Pengguna pada halaman sign-in juga dapat melakukan pemulihan password melalui halaman forgot password, yang nantinya akan ada verifikasi OTP untuk pembaruan sandi, serta feedback pada halaman landing page yang dapat diakses melalui navigasi hubungi kami, yang mana pengguna dapat mengirim pesan kepada admin.",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Berdasarkan rancangan prototipe Gambar",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".6, alur kerja sistem CHAPI dibagi menjadi",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 62,
+      "style": "Normal",
+      "text": "Fase pengelolaan data API dilakukan ketika pengguna berhasil melakukan login dan pengguna telah berada di dashboard utama. Sidebar pada sisi kiri menyediakan berbagai navigasi kepada pengguna. Pengguna dapat mengakses tabel data untuk melihat daftar API yang sudah dibuat, dan pada halaman yang sama juga pengguna dapat melakukan pembuatan API baru. Submit pada form data akan menyimpan seluruh data yang telah diinputkan oleh pengguna dan pengguna akan diarahkan kembali ke tabel data di mana data terbaru akan muncul. Pengguna dapat melihat rincian API untuk mengambil kode API dengan mengklik tombol View pada baris yang diinginkan.",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Fase pengelolaan data API dilakukan ketika pengguna berhasil melakukan login dan",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 63,
+      "style": "Normal",
+      "text": "Fase pengujian menggunakan API yang telah dibangun dari fase sebelumnya. Melalui navigasi try API pada sisi sidebar, pengguna akan diarahkan untuk memasukkan API key yang telah dibuat pada fase sebelumnya. Interaksi antara pengguna dan sistem untuk chatbot akan berlangsung jika API yang dimasukkan sudah benar dan pengguna dapat melakukan percobaan untuk menguji sistem chatbot melalui halaman tersebut. Panduan integrasi teknis disediakan melalui navigasi sidebar yang memberikan referensi teknis bagi pengembang untuk implementasi API ke beberapa bahasa pemrograman.",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Fase pengujian menggunakan API yang telah dibangun dari fase sebelumnya. Melalui",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 64,
+      "style": "Normal",
+      "text": "Fase manajemen akun diakses melalui navigasi sidebar dengan menu user yang memungkinkan pengguna melakukan beberapa pembaruan atas data pribadi seperti pembaruan atas nama, email, password, dan foto. Setiap pembaruan yang berhasil dilakukan akan membawa pengguna kembali ke menu login (sign-in) untuk memulai dari awal.",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Fase manajemen akun diakses melalui navigasi sidebar dengan menu user yang memun",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "pembaruan atas nama, email, password, dan foto. Setiap pembaruan yang berhasil d",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 65,
+      "style": "Normal",
+      "text": "Selain rancangan prototipe atas pengguna, sistem juga dirancang dengan kebutuhan superuser yang bertanggung jawab untuk membantu fungsionalitas sistem. Berikut gambar 573 yang menggambarkan ilustrasi prototipe website untuk kebutuhan superuser sebagai berikut:",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Selain rancangan prototipe atas pengguna, sistem juga dirancang dengan kebutuhan",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "73 yang menggambarkan ilustrasi prototipe website untuk kebutuhan superuser seba",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 67,
+      "style": "Normal",
+      "text": "Gambar 5.7 Prototype Desain Website Superuser",
+      "align": null,
+      "left_indent_cm": 3.07,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 0.0,
+      "line_spacing": 1.0791666666666666,
+      "run_samples": [
+        {
+          "text": "Gambar",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".7",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "Prototype Desain Website Superuser",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 3,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 68,
+      "style": "Normal",
+      "text": "Berdasarkan gambar prototipe superuser pada Gambar 5.7 tersebut, yang menggambarkan alur superuser. Alur kerja superuser meliputi 5 fase yang berupa fase autentikasi, fase manajemen pengguna, fase manajemen pesan, dan fase manajemen akun. Fase autentikasi merupakan tahap awal yang meliputi pengguna umum dan superuser yang juga akan melakukan login melalui domain khusus yang tidak disediakan pada landing page. Halaman sign-in pada superuser hanya dapat diakses oleh admin.",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Berdasarkan gambar prototipe superuser pada Gambar",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".7 tersebut, yang menggambarkan alur superuser. Alur kerja superuser meliputi",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 69,
+      "style": "Normal",
+      "text": "Fase manajemen pengguna merupakan proses kontrol atas data pengguna. Admin akan diarahkan ke halaman dashboard, di mana pada halaman tersebut terdapat statistik data pengguna dan sidebar di sisi samping yang menyediakan manajemen user, di mana admin dapat mengatur user berupa penghapusan akun dan reset password. Admin hanya diberikan wewenang untuk melihat ringkasan atas akun pengguna sehingga tidak dapat mengakses dokumen-dokumen pribadi ataupun API pengguna.",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Fase manajemen pengguna merupakan proses kontrol atas data pengguna. Admin akan ",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 70,
+      "style": "Normal",
+      "text": "Fase manajemen pesan diberikan kepada admin dengan akses melalui navigasi sidebar pada user manage message, yang pada halaman ini akan disajikan kritik, masukan, ataupun laporan dari pengguna yang telah diisi oleh pengguna di landing page. Admin memiliki wewenang untuk memberikan umpan balik (feedback) atas semua laporan ataupun masukan tersebut, dan admin juga dapat menentukan pesan mana yang perlu diberikan umpan balik dan tidak perlu melalui ikon status.",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Fase manajemen pesan diberikan kepada admin dengan akses melalui navigasi sideba",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 71,
+      "style": "Normal",
+      "text": "Fase manajemen akun berkaitan dengan pemeliharaan akun admin yang dapat diakses melalui navigasi sidebar pada menu user. Manajemen akun admin dilakukan layaknya pada pengguna umum, seperti pergantian username, password, email, dan foto profil pengguna. Pada fase ini, pilihan logout tersedia bagi admin di menu bawah.",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 12.1,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Fase manajemen akun berkaitan dengan pemeliharaan akun admin yang dapat diakses ",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 72,
+      "style": "Heading 2",
+      "text": "5.1.2.3 User Interface",
+      "align": "LEFT (0)",
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 12.7,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "5",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": "Arial",
+          "size_pt": null
+        },
+        {
+          "text": ".1.2.3 User Interface",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": "Arial",
+          "size_pt": null
+        }
+      ],
+      "fonts": [
+        [
+          "Arial",
+          2
+        ]
+      ],
+      "sizes_pt": [],
+      "bold_run_count": 2,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 73,
+      "style": "Normal",
+      "text": "Tahap desain interface menghasilkan rancangan visual dalam bentuk prototipe representasi sistem secara menyeluruh. Rancangan antarmuka akan digunakan sebagai dasar visualisasi dalam tahap penerapan nantinya. Adapun rancangan antarmuka sistem berdasarkan wireflow yang telah dibangun sebagai berikut:",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Tahap desain interface menghasilkan rancangan visual dalam bentuk prototipe repr",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 74,
+      "style": "Normal",
+      "text": "a. Rancangan landing page",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 12.6,
+      "line_spacing": 1.0791666666666666,
+      "run_samples": [
+        {
+          "text": "a.",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "Rancangan landing page",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 75,
+      "style": "Normal",
+      "text": "Berikut Gambar 5.8 yang mengilustrasikan rancangan landing page",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 9.6,
+      "line_spacing": 1.0791666666666666,
+      "run_samples": [
+        {
+          "text": "Berikut Gambar",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".8 yang mengilustrasikan rancangan landing page",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 77,
+      "style": "Heading 1",
+      "text": "Gambar 5.8 Rancangan Landing Page",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Gambar",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".8",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "Rancangan Landing Page",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 3,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 78,
+      "style": "Normal",
+      "text": "Pada Gambar 5.8, rancangan landing page ini dirancang sebagai halaman awal yang menjadi titik pendaratan pertama bagi pengguna ketika mengakses domain utama web. Landing page dirancang dengan berbagai fitur utama untuk menarik perhatian pengguna. Desain landing page menekankan pada pemberian kesan pertama ketika user mengakses web yang berupa ringkasan penggunaan fitur chatbot sehingga memberikan ilustrasi harapan user ketika menggunakan fitur tersebut. Dengan penggunaan fitur API, pengguna dapat masuk melalui tombol “login” yang tersedia pada landing page. Selain itu, pengguna juga dapat memberikan masukan atau kritik melalui “chat with us” yang tersedia pada bagian",
+      "align": null,
+      "left_indent_cm": 0.76,
+      "first_line_indent_cm": 0.99,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Pada Gambar",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".8, rancangan landing page ini dirancang sebagai halaman awal yang menjadi titik",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 79,
+      "style": "Normal",
+      "text": "Contact Us.",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 13.0,
+      "line_spacing": 1.0791666666666666,
+      "run_samples": [
+        {
+          "text": "Contact Us.",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 80,
+      "style": "Normal",
+      "text": "b. Rancangan sign-in dan sign-up user",
+      "align": null,
+      "left_indent_cm": -0.01,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 12.6,
+      "line_spacing": 1.0791666666666666,
+      "run_samples": [
+        {
+          "text": "b.",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "Rancangan sign-in dan sign-up user",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 81,
+      "style": "Normal",
+      "text": "Gambar 5.5 mengilustrasikan rancangan sign-in untuk user.",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 9.55,
+      "line_spacing": 1.0791666666666666,
+      "run_samples": [
+        {
+          "text": "Gambar",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".5 mengilustrasikan rancangan sign-in untuk user.",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 83,
+      "style": "Heading 1",
+      "text": "Gambar 5.9 Rancangan Sign-in User",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Gambar",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".9",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "Rancangan Sign-in User",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 3,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 84,
+      "style": "Normal",
+      "text": "Halaman sign-in pada Gambar 5.9 dirancang dengan memfokuskan pengalaman pengguna pada tampilan minimalis dengan kolom input username dan password. Tampilan seperti ini membantu pengalaman pengguna dalam mengakses halaman sign-in tersebut. Halaman sign-in dilengkapi dengan navigasi kembali ke halaman home dan navigasi ke halaman forgot password dan sign-up. Pengguna yang belum memiliki akun wajib melakukan sign-up yang ditunjukkan berupa ilustrasi halaman sign-up pada Gambar 5.10 sebagai berikut.",
+      "align": "RIGHT (2)",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": null,
+      "space_after_pt": 0.0,
+      "line_spacing": 1.9875,
+      "run_samples": [
+        {
+          "text": "Halaman sign-in pada Gambar",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".9 dirancang dengan memfokuskan pengalaman pengguna pada tampilan minimalis deng",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 86,
+      "style": "Heading 1",
+      "text": "Gambar 5.10 Rancangan Sign-Up User",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Gambar",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".10",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "Rancangan Sign-Up User",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 3,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 87,
+      "style": "Normal",
+      "text": "Gambar 5.10 menampilkan rancangan antarmuka pada proses autentikasi pengguna berupa sign-up yang menyediakan form untuk calon pengguna baru.",
+      "align": null,
+      "left_indent_cm": 0.76,
+      "first_line_indent_cm": 0.99,
+      "space_before_pt": null,
+      "space_after_pt": 0.0,
+      "line_spacing": 1.9833333333333334,
+      "run_samples": [
+        {
+          "text": "Gambar",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".10 menampilkan rancangan antarmuka pada proses autentikasi pengguna berupa sign",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 88,
+      "style": "Normal",
+      "text": "Beberapa informasi yang harus diisi pengguna baru ketika hendak memulai menggunakan website berupa username, email, password, dan foto yang juga disediakan untuk personalisasi akun pengguna. Pernyataan atas kepatuhan hukum diperhatikan dengan kotak centang persetujuan terhadap syarat dan ketentuan sebelum pengguna menekan tombol “Sign me up”.",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 0.4,
+      "line_spacing": 1.9875,
+      "run_samples": [
+        {
+          "text": "Beberapa informasi yang harus diisi pengguna baru ketika hendak memulai mengguna",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 89,
+      "style": "Normal",
+      "text": "Rancangan forgot password user",
+      "align": null,
+      "left_indent_cm": null,
+      "first_line_indent_cm": -0.76,
+      "space_before_pt": null,
+      "space_after_pt": 12.6,
+      "line_spacing": 1.0791666666666666,
+      "run_samples": [
+        {
+          "text": "Rancangan forgot password user",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 90,
+      "style": "Normal",
+      "text": "Berikut gambar 5.11 yang mengilustrasikan rancangan forgot password untuk user",
+      "align": "RIGHT (2)",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 9.6,
+      "line_spacing": 1.0791666666666666,
+      "run_samples": [
+        {
+          "text": "Berikut gambar",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".11 yang mengilustrasikan rancangan forgot password untuk user",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 92,
+      "style": "Normal",
+      "text": "Gambar 5.11 Rancangan Forgot Password User",
+      "align": null,
+      "left_indent_cm": 3.57,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 12.45,
+      "line_spacing": 1.0791666666666666,
+      "run_samples": [
+        {
+          "text": "Gambar",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".11",
+          "bold": true,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "Rancangan Forgot Password User",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 3,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 93,
+      "style": "Normal",
+      "text": "Gambar 5.11 mengilustrasikan rancangan antarmuka forgot password yang disediakan apabila pengguna kehilangan atau lupa akses sandi ke akun pribadi mereka. Halaman forgot password digunakan oleh pengguna, di mana pengguna akan diminta memasukkan alamat email yang terdaftar sebelumnya, kemudian akan dikirimkan kode OTP melalui email tersebut sebagai langkah verifikasi sistem keamanan tambahan sebelum kata sandi benar diganti secara permanen. Form juga menyertakan kolom untuk kata sandi baru dan konfirmasi kata sandi baru yang bertujuan untuk memastikan kata sandi benar. Penempatan tautan “Login here” pada bagian bawah formulir memberikan akses untuk kembali ke halaman login. Antarmuka sistem forgot password dirancang dengan mempertahankan pengalaman pengguna sehingga tampilan terkesan efisien dengan navigasi yang tidak rumit agar pengguna tidak merasa masuk dalam proses teknis yang rumit.",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "run_samples": [
+        {
+          "text": "Gambar",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".11 mengilustrasikan rancangan antarmuka forgot password yang disediakan apabila",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 94,
+      "style": "Normal",
+      "text": "Rancangan dashboard user",
+      "align": null,
+      "left_indent_cm": null,
+      "first_line_indent_cm": -0.76,
+      "space_before_pt": null,
+      "space_after_pt": 12.6,
+      "line_spacing": 1.0791666666666666,
+      "run_samples": [
+        {
+          "text": "Rancangan dashboard user",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    },
+    {
+      "idx": 95,
+      "style": "Normal",
+      "text": "Berikut gambar 5.12 yang mengilustrasikan rancangan tampilan dashboard user",
+      "align": null,
+      "left_indent_cm": 0.77,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": 9.6,
+      "line_spacing": 1.0791666666666666,
+      "run_samples": [
+        {
+          "text": "Berikut gambar",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        },
+        {
+          "text": ".12 yang mengilustrasikan rancangan tampilan dashboard user",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font": null,
+          "size_pt": null
+        }
+      ],
+      "fonts": [],
+      "sizes_pt": [],
+      "bold_run_count": 0,
+      "italic_run_count": 0
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1600" viewBox="0 0 1400 1600">
+  <defs>
+    <style>
+      .bg { fill: #f2f2f2; }
+      .box { fill: #ffffff; stroke: #111111; stroke-width: 2; }
+      .split { stroke: #111111; stroke-width: 2; }
+      .title { fill: #222222; font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: 700; text-anchor: middle; }
+      .heading { fill: #222222; font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 700; text-anchor: middle; }
+      .body { fill: #111111; font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: 400; text-anchor: middle; }
+      .small { fill: #111111; font-family: Arial, Helvetica, sans-serif; font-size: 17px; font-weight: 400; text-anchor: middle; }
+      .left { text-anchor: start; }
+      .arrow { stroke: #333333; stroke-width: 3; fill: none; marker-end: url(#arrowhead); }
+      .arrow-soft { stroke: #555555; stroke-width: 3; fill: none; marker-end: url(#arrowhead-soft); }
+    </style>
+    <marker id="arrowhead" markerWidth="12" markerHeight="8" refX="11" refY="4" orient="auto">
+      <path d="M0,0 L12,4 L0,8 Z" fill="#333333"/>
+    </marker>
+    <marker id="arrowhead-soft" markerWidth="12" markerHeight="8" refX="11" refY="4" orient="auto">
+      <path d="M0,0 L12,4 L0,8 Z" fill="#555555"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1400" height="1600"/>
+
+  <!-- Judul utama -->
+  <rect class="box" x="385" y="25" width="630" height="95"/>
+  <text class="title" x="700" y="57">
+    <tspan x="700" dy="0">PERANCANGAN SISTEM REKOMENDASI</tspan>
+    <tspan x="700" dy="29">PRODUK INTERIOR MENGGUNAKAN</tspan>
+    <tspan x="700" dy="29">HYBRID COLLABORATIVE FILTERING</tspan>
+  </text>
+
+  <!-- Rumusan Masalah -->
+  <rect class="box" x="70" y="210" width="530" height="230"/>
+  <line class="split" x1="70" y1="285" x2="600" y2="285"/>
+  <text class="heading" x="335" y="257">Rumusan Masalah</text>
+  <text class="body" x="335" y="333">
+    <tspan x="335" dy="0">Bagaimana merancang sistem</tspan>
+    <tspan x="335" dy="24">rekomendasi untuk produk interior</tspan>
+    <tspan x="335" dy="24">menggunakan metode Hybrid</tspan>
+    <tspan x="335" dy="24">Collaborative Filtering?</tspan>
+  </text>
+
+  <!-- Solusi -->
+  <rect class="box" x="800" y="210" width="530" height="230"/>
+  <line class="split" x1="800" y1="285" x2="1330" y2="285"/>
+  <text class="heading" x="1065" y="257">Tujuan Penelitian</text>
+  <text class="body" x="1065" y="333">
+    <tspan x="1065" dy="0">Merancang dan mengimplementasikan</tspan>
+    <tspan x="1065" dy="24">sistem rekomendasi produk interior</tspan>
+    <tspan x="1065" dy="24">berbasis website yang mampu</tspan>
+    <tspan x="1065" dy="24">memberikan rekomendasi otomatis</tspan>
+    <tspan x="1065" dy="24">berdasarkan metadata dan interaksi.</tspan>
+  </text>
+
+  <!-- Aplikasi utama -->
+  <rect class="box" x="410" y="545" width="580" height="105"/>
+  <text class="heading" x="700" y="587">
+    <tspan x="700" dy="0">Sistem Rekomendasi Produk Interior</tspan>
+    <tspan x="700" dy="27">Berbasis Website</tspan>
+  </text>
+
+  <!-- Kiri: Pemodelan Sistem -->
+  <rect class="box" x="70" y="550" width="290" height="250"/>
+  <line class="split" x1="70" y1="625" x2="360" y2="625"/>
+  <text class="heading" x="215" y="597">Pemodelan Sistem</text>
+  <text class="small left" x="100" y="672">
+    <tspan x="100" dy="0">Unified Modeling Language</tspan>
+    <tspan x="100" dy="23">(UML)</tspan>
+    <tspan x="100" dy="28">1. Use Case Diagram</tspan>
+    <tspan x="100" dy="23">2. Activity Diagram</tspan>
+    <tspan x="100" dy="23">3. Sequence Diagram</tspan>
+    <tspan x="100" dy="23">4. Class Diagram</tspan>
+  </text>
+
+  <!-- Kanan: Teknologi -->
+  <rect class="box" x="1075" y="705" width="255" height="250"/>
+  <line class="split" x1="1075" y1="780" x2="1330" y2="780"/>
+  <text class="heading" x="1202.5" y="752">Teknologi</text>
+  <text class="body" x="1202.5" y="823">
+    <tspan x="1202.5" dy="0">Node.js</tspan>
+    <tspan x="1202.5" dy="24">Express.js</tspan>
+    <tspan x="1202.5" dy="24">PostgreSQL</tspan>
+    <tspan x="1202.5" dy="24">Passport.js</tspan>
+    <tspan x="1202.5" dy="24">Tailwind CSS</tspan>
+  </text>
+
+  <!-- Kanan: Bahasa -->
+  <rect class="box" x="1075" y="1020" width="255" height="205"/>
+  <line class="split" x1="1075" y1="1095" x2="1330" y2="1095"/>
+  <text class="heading" x="1202.5" y="1067">Bahasa Pemrograman</text>
+  <text class="body" x="1202.5" y="1148">
+    <tspan x="1202.5" dy="0">JavaScript</tspan>
+    <tspan x="1202.5" dy="26">SQL</tspan>
+    <tspan x="1202.5" dy="26">HTML</tspan>
+    <tspan x="1202.5" dy="26">CSS</tspan>
+  </text>
+
+  <!-- Tengah vertikal -->
+  <rect class="box" x="535" y="740" width="330" height="180"/>
+  <line class="split" x1="535" y1="815" x2="865" y2="815"/>
+  <text class="heading" x="700" y="784">
+    <tspan x="700" dy="0">Teknik Penelitian /</tspan>
+    <tspan x="700" dy="25">Pengumpulan</tspan>
+  </text>
+  <text class="body" x="700" y="865">Design Science Research</text>
+
+  <rect class="box" x="535" y="975" width="330" height="180"/>
+  <line class="split" x1="535" y1="1050" x2="865" y2="1050"/>
+  <text class="heading" x="700" y="1023">Metode Pengembangan</text>
+  <text class="body" x="700" y="1100">Extreme Programming (XP)</text>
+
+  <rect class="box" x="535" y="1210" width="330" height="220"/>
+  <line class="split" x1="535" y1="1285" x2="865" y2="1285"/>
+  <text class="heading" x="700" y="1258">Algoritma Rekomendasi</text>
+  <text class="small" x="700" y="1326">
+    <tspan x="700" dy="0">Content-Based Filtering</tspan>
+    <tspan x="700" dy="24">User-Based Collaborative Filtering</tspan>
+    <tspan x="700" dy="24">Hybrid Collaborative Filtering 70:30</tspan>
+    <tspan x="700" dy="24">Cold-Start Recommendation</tspan>
+  </text>
+
+  <rect class="box" x="535" y="1475" width="330" height="95"/>
+  <line class="split" x1="535" y1="1528" x2="865" y2="1528"/>
+  <text class="heading" x="700" y="1510">Hasil / Output</text>
+  <text class="small" x="700" y="1558">
+    <tspan x="700" dy="0">Sistem rekomendasi produk interior</tspan>
+    <tspan x="700" dy="22">yang otomatis dan relevan.</tspan>
+  </text>
+
+  <!-- Pengujian berada di bawah algoritma tetapi dibuat melebar agar jelas -->
+  <rect class="box" x="910" y="1325" width="420" height="185"/>
+  <line class="split" x1="910" y1="1400" x2="1330" y2="1400"/>
+  <text class="heading" x="1120" y="1373">Pengujian Sistem</text>
+  <text class="small" x="1120" y="1437">
+    <tspan x="1120" dy="0">White Box Testing dan Unit Testing</tspan>
+    <tspan x="1120" dy="24">menggunakan Jest</tspan>
+    <tspan x="1120" dy="24">Pengujian fitur, skor implisit,</tspan>
+    <tspan x="1120" dy="24">CBF, User-Based CF, dan Hybrid.</tspan>
+  </text>
+
+  <!-- Alur panah -->
+  <path class="arrow" d="M335 440 L335 500 L520 500 L520 545"/>
+  <path class="arrow" d="M1065 440 L1065 500 L880 500 L880 545"/>
+  <path class="arrow-soft" d="M700 650 L700 740"/>
+  <path class="arrow-soft" d="M700 920 L700 975"/>
+  <path class="arrow-soft" d="M700 1155 L700 1210"/>
+  <path class="arrow-soft" d="M700 1430 L700 1475"/>
+  <path class="arrow-soft" d="M865 1320 L910 1390"/>
+  <path class="arrow-soft" d="M360 675 L410 610"/>
+  <path class="arrow-soft" d="M990 600 L1075 805"/>
+  <path class="arrow-soft" d="M990 620 L1075 1105"/>
+</svg>

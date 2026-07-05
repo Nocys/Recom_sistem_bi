@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interior Recommendation App</title>
+    <script>
+      window.tailwind = window.tailwind || {};
+      tailwind.config = { darkMode: 'class' };
+      (function () {
+        try {
+          if (localStorage.getItem('theme') === 'dark') {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (error) {}
+      })();
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../assets/css/custom.css" />
+  </head>
+  <body data-page="home" class="min-h-screen bg-stone-50 text-stone-900 dark:bg-stone-950 dark:text-stone-100">
+    <header class="sticky top-0 z-40 border-b border-stone-200 bg-white/95 backdrop-blur dark:border-stone-800 dark:bg-stone-950/95">
+      <nav class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
+        <a href="index.html" class="text-base font-semibold tracking-wide text-stone-950 dark:text-stone-100">InteriorRec</a>
+        <div id="primary-nav" class="flex flex-wrap items-center gap-4 text-sm"></div>
+        <button data-theme-toggle type="button" onclick="toggleTheme()" class="rounded-md border border-stone-300 bg-white px-3 py-2 text-sm font-medium text-stone-700 hover:bg-stone-100 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-200 dark:hover:bg-stone-800">Dark</button>
+        <div id="nav-auth" class="flex flex-wrap items-center gap-3"></div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="heroSection" class="hero-interior">
+        <div class="mx-auto flex min-h-[520px] max-w-7xl flex-col justify-center px-4 py-16 sm:px-6 lg:px-8">
+          <div class="max-w-3xl text-white">
+            <p class="text-sm font-medium uppercase tracking-[0.2em] text-emerald-100">Hybrid Recommendation System</p>
+            <h1 class="mt-4 text-4xl font-semibold leading-tight sm:text-5xl">Interior Recommendation App</h1>
+            <p class="mt-5 max-w-2xl text-base leading-7 text-stone-100">
+              Temukan produk interior berdasarkan kategori, metadata produk, dan pola interaksi pengguna.
+            </p>
+            <div class="mt-8 flex flex-wrap gap-3">
+              <a href="#productsSection" data-scroll-target="#productsSection" class="inline-flex h-11 items-center rounded-md bg-white px-5 text-sm font-semibold text-stone-950 hover:bg-stone-100">Lihat Produk</a>
+              <a href="recommendations.html" data-admin-only-link hidden class="hidden inline-flex h-11 items-center rounded-md border border-white/70 px-5 text-sm font-semibold text-white hover:bg-white/10">Bandingkan Algoritma</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="guest-cta" class="border-b border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+        <div class="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-5 sm:px-6 md:flex-row md:items-center md:justify-between lg:px-8">
+          <div>
+            <h2 class="text-base font-semibold text-stone-900 dark:text-stone-100">Login untuk rekomendasi personal</h2>
+            <p class="mt-1 text-sm text-stone-600 dark:text-stone-300">Interaksi like, wishlist, dan WhatsApp akan dipakai sebagai rating implisit.</p>
+          </div>
+          <button onclick="loginWithGoogle()" class="inline-flex h-10 w-fit items-center rounded-md bg-stone-900 px-4 text-sm font-semibold text-white hover:bg-stone-800 disabled:cursor-not-allowed disabled:opacity-60 dark:bg-stone-100 dark:text-stone-900 dark:hover:bg-white">Login Google</button>
+        </div>
+      </section>
+
+      <section id="categoriesSection" class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+        <div class="flex flex-col justify-between gap-4 md:flex-row md:items-end">
+          <div>
+            <h2 class="text-2xl font-semibold text-stone-900 dark:text-stone-100">Kategori Produk</h2>
+            <p class="mt-2 text-sm text-stone-600 dark:text-stone-300">Filter koleksi interior berdasarkan jenis produk.</p>
+          </div>
+          <form id="home-search-form" class="grid w-full max-w-2xl gap-2 sm:grid-cols-[1fr_180px_auto_auto]">
+            <input id="home-search" type="search" placeholder="Cari produk, material, style..." class="focus-ring min-w-0 rounded-md border border-stone-300 bg-white px-4 py-2 text-sm text-stone-900 placeholder-stone-400 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-100 dark:placeholder-stone-500" />
+            <select id="home-category" class="focus-ring rounded-md border border-stone-300 bg-white px-3 py-2 text-sm text-stone-900 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-100">
+              <option value="">Semua Kategori</option>
+              <option>Kitchen Set</option>
+              <option>Living Set</option>
+              <option>Bedset</option>
+              <option>Minibar</option>
+              <option>Meja</option>
+              <option>Kursi</option>
+              <option>Lemari</option>
+              <option>Nakas</option>
+              <option>Meja Rias</option>
+            </select>
+            <button type="submit" class="rounded-md bg-stone-900 px-4 py-2 text-sm font-semibold text-white hover:bg-stone-800 disabled:cursor-not-allowed disabled:opacity-60 dark:bg-stone-100 dark:text-stone-900 dark:hover:bg-white">Cari</button>
+            <button id="home-reset" type="button" class="inline-flex items-center justify-center rounded-md border border-stone-300 bg-white px-4 py-2 text-sm font-semibold text-stone-700 hover:bg-stone-100 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-200 dark:hover:bg-stone-800">Reset</button>
+          </form>
+        </div>
+        <div id="category-grid" class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-6"></div>
+      </section>
+
+      <section id="forYouSection" class="bg-white py-12 dark:bg-stone-900">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="flex flex-col justify-between gap-3 md:flex-row md:items-end">
+            <div>
+              <h2 id="home-recommendation-title" class="text-2xl font-semibold text-stone-900 dark:text-stone-100">Produk Pilihan</h2>
+              <p class="mt-2 text-sm text-stone-600 dark:text-stone-300">Bagian ini memakai endpoint rekomendasi cold-start atau personal sesuai status login.</p>
+            </div>
+            <a href="recommendations.html" data-admin-only-link hidden class="hidden text-sm font-semibold text-stone-700 hover:text-stone-950 dark:text-stone-300 dark:hover:text-white">Analisis Rekomendasi</a>
+          </div>
+          <div id="home-recommendations" class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-4"></div>
+        </div>
+      </section>
+
+      <section id="productsSection" class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+        <div class="flex items-end justify-between gap-3">
+          <div>
+            <h2 id="latest-title" class="text-2xl font-semibold text-stone-900 dark:text-stone-100">Produk Aktif Terbaru</h2>
+            <p class="mt-2 text-sm text-stone-600 dark:text-stone-300">Data diambil dari endpoint publik `/products`.</p>
+          </div>
+          <button type="button" data-home-reset class="hidden text-sm font-semibold text-stone-600 hover:text-stone-950 dark:text-stone-300 dark:hover:text-white sm:inline">Reset filter</button>
+        </div>
+        <div id="latest-products" class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-4"></div>
+      </section>
+    </main>
+
+    <footer class="border-t border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-950">
+      <div class="mx-auto max-w-7xl px-4 py-6 text-center text-sm text-stone-500 dark:text-stone-400 sm:px-6 lg:px-8">
+        &copy; 2026 Recom sistem Hybrid Collaborative Filtering
+      </div>
+    </footer>
+
+    <script src="../assets/js/ui.js"></script>
+    <script src="../assets/js/api.js"></script>
+    <script src="../assets/js/auth.js"></script>
+    <script src="../assets/js/interactions.js"></script>
+    <script src="../assets/js/recommendations.js"></script>
+    <script src="../assets/js/products.js"></script>
+  </body>
+</html>

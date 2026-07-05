@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard - InteriorRec</title>
+    <script>
+      window.tailwind = window.tailwind || {};
+      tailwind.config = { darkMode: 'class' };
+      (function () {
+        try {
+          if (localStorage.getItem('theme') === 'dark') {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (error) {}
+      })();
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../assets/css/custom.css" />
+  </head>
+  <body data-page="admin-dashboard" class="min-h-screen bg-stone-50 text-stone-900 dark:bg-stone-950 dark:text-stone-100">
+    <header class="sticky top-0 z-40 border-b border-stone-200 bg-white/95 backdrop-blur dark:border-stone-800 dark:bg-stone-950/95">
+      <nav class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
+        <a href="index.html" class="text-base font-semibold tracking-wide text-stone-950 dark:text-stone-100">InteriorRec</a>
+        <div id="primary-nav" class="flex flex-wrap items-center gap-4 text-sm"></div>
+        <button data-theme-toggle type="button" onclick="toggleTheme()" class="rounded-md border border-stone-300 bg-white px-3 py-2 text-sm font-medium text-stone-700 hover:bg-stone-100 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-200 dark:hover:bg-stone-800">Dark</button>
+        <div id="nav-auth" class="flex flex-wrap items-center gap-3"></div>
+      </nav>
+    </header>
+
+    <main class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+      <section id="access-denied" class="hidden"></section>
+
+      <section id="admin-content" class="hidden">
+        <div class="rounded-lg border border-stone-200 bg-white p-6 text-stone-900 shadow-sm dark:border-stone-800 dark:bg-stone-900 dark:text-stone-100">
+          <p class="text-sm font-medium uppercase text-stone-600 dark:text-stone-300">Admin Dashboard</p>
+          <h1 class="mt-2 text-3xl font-semibold text-stone-900 dark:text-stone-100">Kelola katalog produk interior</h1>
+          <p class="mt-3 text-sm leading-6 text-stone-600 dark:text-stone-300">
+            Admin dapat menambah, memperbarui, dan menonaktifkan produk. Produk inactive tidak tampil pada endpoint publik.
+          </p>
+          <dl class="mt-5 grid gap-4 text-sm sm:grid-cols-2">
+            <div class="rounded-lg border border-stone-200 bg-stone-50 p-4 dark:border-stone-800 dark:bg-stone-950">
+              <dt class="text-stone-500 dark:text-stone-400">Login sebagai</dt>
+              <dd id="admin-name" class="mt-1 font-semibold text-stone-900 dark:text-stone-100"></dd>
+            </div>
+            <div class="rounded-lg border border-stone-200 bg-stone-50 p-4 dark:border-stone-800 dark:bg-stone-950">
+              <dt class="text-stone-500 dark:text-stone-400">Email</dt>
+              <dd id="admin-email" class="mt-1 font-semibold text-stone-900 dark:text-stone-100"></dd>
+            </div>
+            <div class="rounded-lg border border-stone-200 bg-stone-50 p-4 dark:border-stone-800 dark:bg-stone-950">
+              <dt class="text-stone-500 dark:text-stone-400">Role</dt>
+              <dd id="admin-role" class="mt-1"></dd>
+            </div>
+            <div class="rounded-lg border border-stone-200 bg-stone-50 p-4 dark:border-stone-800 dark:bg-stone-950">
+              <dt class="text-stone-500 dark:text-stone-400">Auth Provider</dt>
+              <dd id="admin-auth-provider" class="mt-1 font-semibold text-stone-900 dark:text-stone-100"></dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+          <div class="rounded-lg border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-stone-900">
+            <p class="text-xs font-medium uppercase text-stone-500 dark:text-stone-400">Total Produk</p>
+            <p id="admin-total-products" class="mt-2 text-3xl font-semibold text-stone-900 dark:text-stone-100">0</p>
+          </div>
+          <div class="rounded-lg border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-stone-900">
+            <p class="text-xs font-medium uppercase text-stone-500 dark:text-stone-400">Active</p>
+            <p id="admin-active-products" class="mt-2 text-3xl font-semibold text-green-700 dark:text-green-300">0</p>
+          </div>
+          <div class="rounded-lg border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-stone-900">
+            <p class="text-xs font-medium uppercase text-stone-500 dark:text-stone-400">Inactive</p>
+            <p id="admin-inactive-products" class="mt-2 text-3xl font-semibold text-stone-600 dark:text-stone-300">0</p>
+          </div>
+        </div>
+
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="admin-products.html" class="inline-flex h-10 items-center rounded-md bg-stone-900 px-4 text-sm font-semibold text-white hover:bg-stone-800 dark:bg-stone-100 dark:text-stone-900 dark:hover:bg-white">Kelola Produk</a>
+          <a href="index.html" class="inline-flex h-10 items-center rounded-md border border-stone-300 bg-white px-4 text-sm font-semibold text-stone-700 hover:bg-stone-100 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-200 dark:hover:bg-stone-800">Lihat Home</a>
+          <a href="recommendations.html" class="inline-flex h-10 items-center rounded-md border border-stone-300 bg-white px-4 text-sm font-semibold text-stone-700 hover:bg-stone-100 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-200 dark:hover:bg-stone-800">Analisis Rekomendasi</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-12 border-t border-stone-200 bg-white px-4 py-6 text-center text-sm text-stone-500 dark:border-stone-800 dark:bg-stone-950 dark:text-stone-400">
+      &copy; 2026 Interior Recommendation System.
+    </footer>
+
+    <script src="../assets/js/ui.js"></script>
+    <script src="../assets/js/api.js"></script>
+    <script src="../assets/js/auth.js"></script>
+    <script src="../assets/js/admin.js"></script>
+  </body>
+</html>

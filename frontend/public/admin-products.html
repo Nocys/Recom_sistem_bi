@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Products - InteriorRec</title>
+    <script>
+      window.tailwind = window.tailwind || {};
+      tailwind.config = { darkMode: 'class' };
+      (function () {
+        try {
+          if (localStorage.getItem('theme') === 'dark') {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (error) {}
+      })();
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../assets/css/custom.css" />
+  </head>
+  <body data-page="admin-products" class="min-h-screen bg-stone-50 text-stone-900 dark:bg-stone-950 dark:text-stone-100">
+    <header class="sticky top-0 z-40 border-b border-stone-200 bg-white/95 backdrop-blur dark:border-stone-800 dark:bg-stone-950/95">
+      <nav class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
+        <a href="index.html" class="text-base font-semibold tracking-wide text-stone-950 dark:text-stone-100">InteriorRec</a>
+        <div id="primary-nav" class="flex flex-wrap items-center gap-4 text-sm"></div>
+        <button data-theme-toggle type="button" onclick="toggleTheme()" class="rounded-md border border-stone-300 bg-white px-3 py-2 text-sm font-medium text-stone-700 hover:bg-stone-100 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-200 dark:hover:bg-stone-800">Dark</button>
+        <div id="nav-auth" class="flex flex-wrap items-center gap-3"></div>
+      </nav>
+    </header>
+
+    <main class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+      <section id="access-denied" class="hidden"></section>
+
+      <section id="admin-content" class="hidden">
+        <div class="mb-6 flex flex-col justify-between gap-4 md:flex-row md:items-end">
+          <div>
+            <p class="text-sm font-medium uppercase text-stone-600 dark:text-stone-300">Product Management</p>
+            <h1 class="mt-2 text-3xl font-semibold text-stone-900 dark:text-stone-100">Produk Interior</h1>
+          </div>
+          <a href="admin-dashboard.html" class="inline-flex h-10 w-fit items-center rounded-md border border-stone-300 bg-white px-4 text-sm font-semibold text-stone-700 hover:bg-stone-100 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-200 dark:hover:bg-stone-800">Dashboard</a>
+        </div>
+
+        <div class="grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
+          <form id="product-form" class="rounded-lg border border-stone-200 bg-white p-5 text-stone-900 shadow-sm dark:border-stone-800 dark:bg-stone-900 dark:text-stone-100">
+            <input id="product-id" type="hidden" />
+            <div class="flex items-center justify-between gap-3">
+              <h2 id="product-form-title" class="text-xl font-semibold text-stone-900 dark:text-stone-100">Tambah Produk</h2>
+              <div class="flex gap-2">
+                <button id="reset-form-button" type="button" class="rounded-md border border-stone-300 bg-white px-3 py-2 text-xs font-semibold text-stone-700 hover:bg-stone-100 disabled:cursor-not-allowed disabled:opacity-60 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-200 dark:hover:bg-stone-800">Reset Form</button>
+                <button id="cancel-edit-button" type="button" class="hidden rounded-md border border-stone-300 bg-white px-3 py-2 text-xs font-semibold text-stone-700 hover:bg-stone-100 disabled:cursor-not-allowed disabled:opacity-60 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-200 dark:hover:bg-stone-800">Batal Edit</button>
+              </div>
+            </div>
+
+            <div class="mt-5 grid gap-4 sm:grid-cols-2">
+              <label class="sm:col-span-2">
+                <span class="text-sm font-medium text-stone-700 dark:text-stone-200">Name</span>
+                <input name="name" type="text" required class="focus-ring mt-1 w-full rounded-md border border-stone-300 bg-white px-3 py-2 text-sm text-stone-900 placeholder-stone-400 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-100 dark:placeholder-stone-500" />
+              </label>
+              <label class="sm:col-span-2">
+                <span class="text-sm font-medium text-stone-700 dark:text-stone-200">Image URL</span>
+                <input name="image_url" type="text" required class="focus-ring mt-1 w-full rounded-md border border-stone-300 bg-white px-3 py-2 text-sm text-stone-900 placeholder-stone-400 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-100 dark:placeholder-stone-500" />
+                <span class="mt-1 block text-xs text-stone-500 dark:text-stone-400">Masukkan URL gambar, misalnya dari placehold.co, Unsplash, atau data:image untuk demo.</span>
+              </label>
+              <div class="sm:col-span-2">
+                <div class="overflow-hidden rounded-lg border border-stone-200 bg-stone-50 dark:border-stone-800 dark:bg-stone-950">
+                  <img id="image-preview" class="hidden aspect-[4/3] w-full object-cover" alt="Preview produk" />
+                  <div id="image-preview-empty" class="flex aspect-[4/3] items-center justify-center px-4 text-center text-sm text-stone-500 dark:text-stone-400">Preview gambar akan tampil setelah Image URL diisi.</div>
+                </div>
+              </div>
+              <label>
+                <span class="text-sm font-medium text-stone-700 dark:text-stone-200">Category</span>
+                <select name="category" required class="focus-ring mt-1 w-full rounded-md border border-stone-300 bg-white px-3 py-2 text-sm text-stone-900 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-100">
+                  <option value="">Pilih kategori</option>
+                  <option>Kitchen Set</option>
+                  <option>Living Set</option>
+                  <option>Bedset</option>
+                  <option>Minibar</option>
+                  <option>Meja</option>
+                  <option>Kursi</option>
+                  <option>Lemari</option>
+                  <option>Nakas</option>
+                  <option>Meja Rias</option>
+                </select>
+              </label>
+              <label>
+                <span class="text-sm font-medium text-stone-700 dark:text-stone-200">Material</span>
+                <select name="material" required class="focus-ring mt-1 w-full rounded-md border border-stone-300 bg-white px-3 py-2 text-sm text-stone-900 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-100">
+                  <option value="">Pilih material</option>
+                  <option>HPL</option>
+                  <option>Kayu</option>
+                  <option>Logam</option>
+                  <option>Kaca</option>
+                  <option>Linen</option>
+                  <option>Kayu + Logam</option>
+                  <option>Logam + Linen</option>
+                  <option>Kayu + Linen</option>
+                  <option>HPL + Kaca</option>
+                </select>
+              </label>
+              <label>
+                <span class="text-sm font-medium text-stone-700 dark:text-stone-200">Material Variant</span>
+                <select name="material_variant" required class="focus-ring mt-1 w-full rounded-md border border-stone-300 bg-white px-3 py-2 text-sm text-stone-900 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-100">
+                  <option>Tidak Ada</option>
+                  <option>Woodgrain</option>
+                  <option>Solid</option>
+                  <option>Marble</option>
+                  <option>Glossy</option>
+                </select>
+              </label>
+              <label>
+                <span class="text-sm font-medium text-stone-700 dark:text-stone-200">Style Theme</span>
+                <select name="style_theme" required class="focus-ring mt-1 w-full rounded-md border border-stone-300 bg-white px-3 py-2 text-sm text-stone-900 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-100">
+                  <option value="">Pilih style</option>
+                  <option>Modern</option>
+                  <option>Minimalis</option>
+                  <option>Japandi</option>
+                </select>
+              </label>
+              <label>
+                <span class="text-sm font-medium text-stone-700 dark:text-stone-200">Dominant Color</span>
+                <input name="dominant_color" type="text" required class="focus-ring mt-1 w-full rounded-md border border-stone-300 bg-white px-3 py-2 text-sm text-stone-900 placeholder-stone-400 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-100 dark:placeholder-stone-500" />
+              </label>
+              <label>
+                <span class="text-sm font-medium text-stone-700 dark:text-stone-200">Room Category</span>
+                <select name="room_category" required class="focus-ring mt-1 w-full rounded-md border border-stone-300 bg-white px-3 py-2 text-sm text-stone-900 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-100">
+                  <option value="">Pilih ruangan</option>
+                  <option>Ruang Tamu</option>
+                  <option>Ruang Makan</option>
+                  <option>Dapur</option>
+                  <option>Kamar Tidur</option>
+                  <option>Mini Bar</option>
+                </select>
+              </label>
+              <label>
+                <span class="text-sm font-medium text-stone-700 dark:text-stone-200">Price</span>
+                <input name="price" type="number" min="0" step="1" required class="focus-ring mt-1 w-full rounded-md border border-stone-300 bg-white px-3 py-2 text-sm text-stone-900 placeholder-stone-400 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-100 dark:placeholder-stone-500" />
+              </label>
+              <label id="stock-field">
+                <span class="text-sm font-medium text-stone-700 dark:text-stone-200">Stock</span>
+                <input name="stock" type="number" min="0" step="1" required class="focus-ring mt-1 w-full rounded-md border border-stone-300 bg-white px-3 py-2 text-sm text-stone-900 placeholder-stone-400 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-100 dark:placeholder-stone-500" />
+                <span class="mt-1 block text-xs text-stone-500 dark:text-stone-400">Wajib untuk category Meja, Kursi, Lemari, Nakas, dan Meja Rias.</span>
+              </label>
+              <div id="stock-helper" class="hidden rounded-md border border-amber-200 bg-amber-50 p-3 text-xs leading-5 text-amber-800 dark:border-amber-800 dark:bg-amber-950 dark:text-amber-200">
+                Kategori ini tidak menggunakan stok karena umumnya bersifat custom atau berdasarkan konsultasi.
+              </div>
+              <label>
+                <span class="text-sm font-medium text-stone-700 dark:text-stone-200">Status</span>
+                <select name="status" required class="focus-ring mt-1 w-full rounded-md border border-stone-300 bg-white px-3 py-2 text-sm text-stone-900 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-100">
+                  <option value="active">active</option>
+                  <option value="inactive">inactive</option>
+                </select>
+              </label>
+              <label class="sm:col-span-2">
+                <span class="text-sm font-medium text-stone-700 dark:text-stone-200">Description</span>
+                <textarea name="description" rows="4" required class="focus-ring mt-1 w-full rounded-md border border-stone-300 bg-white px-3 py-2 text-sm text-stone-900 placeholder-stone-400 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-100 dark:placeholder-stone-500"></textarea>
+              </label>
+            </div>
+
+            <button id="product-submit-button" type="submit" class="mt-5 h-11 w-full rounded-md bg-stone-900 px-4 text-sm font-semibold text-white hover:bg-stone-800 disabled:cursor-not-allowed disabled:opacity-60 dark:bg-stone-100 dark:text-stone-900 dark:hover:bg-white">Tambah Produk</button>
+          </form>
+
+          <section>
+            <form id="product-filter-form" class="rounded-lg border border-stone-200 bg-white p-5 text-stone-900 shadow-sm dark:border-stone-800 dark:bg-stone-900 dark:text-stone-100">
+              <div class="grid gap-4 md:grid-cols-[1fr_1fr_1.3fr_auto] md:items-end">
+                <label>
+                  <span class="text-sm font-medium text-stone-700 dark:text-stone-200">Category</span>
+                  <select id="filter-category" class="focus-ring mt-1 w-full rounded-md border border-stone-300 bg-white px-3 py-2 text-sm text-stone-900 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-100">
+                    <option value="">Semua</option>
+                    <option>Kitchen Set</option>
+                    <option>Living Set</option>
+                    <option>Bedset</option>
+                    <option>Minibar</option>
+                    <option>Meja</option>
+                    <option>Kursi</option>
+                    <option>Lemari</option>
+                    <option>Nakas</option>
+                    <option>Meja Rias</option>
+                  </select>
+                </label>
+                <label>
+                  <span class="text-sm font-medium text-stone-700 dark:text-stone-200">Status</span>
+                  <select id="filter-status" class="focus-ring mt-1 w-full rounded-md border border-stone-300 bg-white px-3 py-2 text-sm text-stone-900 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-100">
+                    <option value="">Semua</option>
+                    <option value="active">active</option>
+                    <option value="inactive">inactive</option>
+                  </select>
+                </label>
+                <label>
+                  <span class="text-sm font-medium text-stone-700 dark:text-stone-200">Search</span>
+                  <input id="filter-search" type="search" class="focus-ring mt-1 w-full rounded-md border border-stone-300 bg-white px-3 py-2 text-sm text-stone-900 placeholder-stone-400 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-100 dark:placeholder-stone-500" />
+                </label>
+                <button type="submit" class="h-10 rounded-md bg-stone-900 px-4 text-sm font-semibold text-white hover:bg-stone-800 disabled:cursor-not-allowed disabled:opacity-60 dark:bg-stone-100 dark:text-stone-900 dark:hover:bg-white">Filter</button>
+              </div>
+            </form>
+
+            <div class="mt-5 flex items-center justify-between gap-3">
+              <h2 class="text-xl font-semibold text-stone-900 dark:text-stone-100">Daftar Produk</h2>
+              <span id="admin-products-total" class="text-sm text-stone-500 dark:text-stone-400"></span>
+            </div>
+            <div id="admin-products-table" class="mt-4"></div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-12 border-t border-stone-200 bg-white px-4 py-6 text-center text-sm text-stone-500 dark:border-stone-800 dark:bg-stone-950 dark:text-stone-400">
+      &copy; 2026 Interior Recommendation System.
+    </footer>
+
+    <script src="../assets/js/ui.js"></script>
+    <script src="../assets/js/api.js"></script>
+    <script src="../assets/js/auth.js"></script>
+    <script src="../assets/js/admin.js"></script>
+  </body>
+</html>
